@@ -2,42 +2,42 @@ package model;
 
 import java.io.Serializable;
 import javax.persistence.*;
-import java.util.Set;
 
 
 /**
  * The persistent class for the account database table.
  * 
  */
+@SuppressWarnings("serial")
 @Entity
 @Table(name="account")
 public class Account implements Serializable {
-	private static final long serialVersionUID = 1L;
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
-	private int id;
-
+	private int idAccount;
+	
 	private float amount;
 
-	//bi-directional many-to-one association to Wallet
-    @ManyToOne
+	//directional one-to-one association to Wallet
+    @OneToOne
 	@JoinColumn(name="idWallet")
 	private Wallet wallet;
-
-	//bi-directional many-to-one association to Client
-	@OneToMany(mappedBy="account")
-	private Set<Client> clients;
 
     public Account() {
     }
 
+    public Account(float amount, Wallet wallet) {
+    	this.amount = amount;
+    	this.wallet = wallet;
+    }
+    
 	public int getId() {
-		return this.id;
+		return this.idAccount;
 	}
 
 	public void setId(int id) {
-		this.id = id;
+		this.idAccount = id;
 	}
 
 	public float getAmount() {
@@ -54,14 +54,6 @@ public class Account implements Serializable {
 
 	public void setWallet(Wallet wallet) {
 		this.wallet = wallet;
-	}
-	
-	public Set<Client> getClients() {
-		return this.clients;
-	}
-
-	public void setClients(Set<Client> clients) {
-		this.clients = clients;
 	}
 	
 }

@@ -1,0 +1,1938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_8STRoF_dEeO-yK9GQTzvUA">
+  <name xsi:nil="true"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_8TXooF_dEeO-yK9GQTzvUA" name="model" clientDependency="_9CJaMF_dEeO-yK9GQTzvUA _9CLPYF_dEeO-yK9GQTzvUA _9CLPYV_dEeO-yK9GQTzvUA _9CLPYl_dEeO-yK9GQTzvUA _9CLPY1_dEeO-yK9GQTzvUA">
+    <packagedElement xmi:type="uml:Class" xmi:id="_8T9egF_dEeO-yK9GQTzvUA" name="Action">
+      <eAnnotations xmi:id="_8T9egV_dEeO-yK9GQTzvUA" source="http://www.topcased.org/documentation">
+        <details xmi:id="_8T9egl_dEeO-yK9GQTzvUA" key="documentation" value=" The persistent class for the action database table.&#xA; &#xA;"/>
+      </eAnnotations>
+      <elementImport xmi:id="_8gmMUF_dEeO-yK9GQTzvUA" visibility="private"/>
+      <elementImport xmi:id="_8gnacF_dEeO-yK9GQTzvUA" visibility="private"/>
+      <packageImport xmi:id="_8gnacV_dEeO-yK9GQTzvUA" visibility="private"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8g-m0F_dEeO-yK9GQTzvUA" name="getId" specification="_8g0OwF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8g-m0V_dEeO-yK9GQTzvUA"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		return this.idAction;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8hXoYF_dEeO-yK9GQTzvUA" name="setId" specification="_8hMpQF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8hXoYV_dEeO-yK9GQTzvUA" name="id"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		this.idAction = id;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8hzGMF_dEeO-yK9GQTzvUA" name="getWallet" specification="_8hngAF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8hzGMV_dEeO-yK9GQTzvUA" type="_8T3X4F_dEeO-yK9GQTzvUA"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		return this.wallet;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8iV4wF_dEeO-yK9GQTzvUA" name="setWallet" specification="_8iK5oF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8iV4wV_dEeO-yK9GQTzvUA" name="wallet" type="_8T3X4F_dEeO-yK9GQTzvUA"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		this.wallet = wallet;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8irP8F_dEeO-yK9GQTzvUA" name="getOpen" specification="_8ig34F_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8irP8V_dEeO-yK9GQTzvUA"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		return open;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8jGGsF_dEeO-yK9GQTzvUA" name="setOpen" specification="_8i7HkF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8jGGsV_dEeO-yK9GQTzvUA" name="open"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		this.open = open;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8jfIQF_dEeO-yK9GQTzvUA" name="getDate" specification="_8jUwMF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8jfIQV_dEeO-yK9GQTzvUA"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		return date;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8j-3gF_dEeO-yK9GQTzvUA" name="setDate" specification="_8j1GgF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8j-3gV_dEeO-yK9GQTzvUA" name="date"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		this.date = date;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8kUOsF_dEeO-yK9GQTzvUA" name="getHigh" specification="_8kKdsF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8kUOsV_dEeO-yK9GQTzvUA"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		return high;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8ktQQF_dEeO-yK9GQTzvUA" name="setHigh" specification="_8kjfQF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8ktQQV_dEeO-yK9GQTzvUA" name="high"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		this.high = high;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8lCncF_dEeO-yK9GQTzvUA" name="getClose" specification="_8k4PYF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8lDOgF_dEeO-yK9GQTzvUA"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		return close;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8lbpAF_dEeO-yK9GQTzvUA" name="setClose" specification="_8lR4AF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8lcQEF_dEeO-yK9GQTzvUA" name="close"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		this.close = close;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8lwZIF_dEeO-yK9GQTzvUA" name="getLow" specification="_8lmoIF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8lwZIV_dEeO-yK9GQTzvUA"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		return low;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8mKBwF_dEeO-yK9GQTzvUA" name="setLow" specification="_8mAQwF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8mKBwV_dEeO-yK9GQTzvUA" name="low"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		this.low = low;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8mex4F_dEeO-yK9GQTzvUA" name="getVolume" specification="_8mVA4F_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8mfY8F_dEeO-yK9GQTzvUA"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		return volume;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8m3zcF_dEeO-yK9GQTzvUA" name="setVolume" specification="_8muCcF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8m3zcV_dEeO-yK9GQTzvUA" name="volume"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		this.volume = volume;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8nNKoF_dEeO-yK9GQTzvUA" name="getAdj" specification="_8nDZoF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8nNKoV_dEeO-yK9GQTzvUA"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		return adj;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8nmMMF_dEeO-yK9GQTzvUA" name="setAdj" specification="_8ncbMF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8nmMMV_dEeO-yK9GQTzvUA" name="adj"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		this.adj = adj;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_8g0OwF_dEeO-yK9GQTzvUA" name="getId" visibility="public" method="_8g-m0F_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8g0OwV_dEeO-yK9GQTzvUA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8hMpQF_dEeO-yK9GQTzvUA" name="setId" visibility="public" method="_8hXoYF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8hMpQV_dEeO-yK9GQTzvUA" name="id"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8hngAF_dEeO-yK9GQTzvUA" name="getWallet" visibility="public" method="_8hzGMF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8hngAV_dEeO-yK9GQTzvUA" type="_8T3X4F_dEeO-yK9GQTzvUA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8iK5oF_dEeO-yK9GQTzvUA" name="setWallet" visibility="public" method="_8iV4wF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8iK5oV_dEeO-yK9GQTzvUA" name="wallet" type="_8T3X4F_dEeO-yK9GQTzvUA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8ig34F_dEeO-yK9GQTzvUA" name="getOpen" visibility="public" method="_8irP8F_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8ig34V_dEeO-yK9GQTzvUA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8i7HkF_dEeO-yK9GQTzvUA" name="setOpen" visibility="public" method="_8jGGsF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8i7HkV_dEeO-yK9GQTzvUA" name="open"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8jUwMF_dEeO-yK9GQTzvUA" name="getDate" visibility="public" method="_8jfIQF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8jUwMV_dEeO-yK9GQTzvUA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8j1GgF_dEeO-yK9GQTzvUA" name="setDate" visibility="public" method="_8j-3gF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8j1GgV_dEeO-yK9GQTzvUA" name="date"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8kKdsF_dEeO-yK9GQTzvUA" name="getHigh" visibility="public" method="_8kUOsF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8kKdsV_dEeO-yK9GQTzvUA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8kjfQF_dEeO-yK9GQTzvUA" name="setHigh" visibility="public" method="_8ktQQF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8kjfQV_dEeO-yK9GQTzvUA" name="high"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8k4PYF_dEeO-yK9GQTzvUA" name="getClose" visibility="public" method="_8lCncF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8k4PYV_dEeO-yK9GQTzvUA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8lR4AF_dEeO-yK9GQTzvUA" name="setClose" visibility="public" method="_8lbpAF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8lR4AV_dEeO-yK9GQTzvUA" name="close"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8lmoIF_dEeO-yK9GQTzvUA" name="getLow" visibility="public" method="_8lwZIF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8lmoIV_dEeO-yK9GQTzvUA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8mAQwF_dEeO-yK9GQTzvUA" name="setLow" visibility="public" method="_8mKBwF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8mAQwV_dEeO-yK9GQTzvUA" name="low"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8mVA4F_dEeO-yK9GQTzvUA" name="getVolume" visibility="public" method="_8mex4F_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8mVA4V_dEeO-yK9GQTzvUA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8muCcF_dEeO-yK9GQTzvUA" name="setVolume" visibility="public" method="_8m3zcF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8mupgF_dEeO-yK9GQTzvUA" name="volume"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8nDZoF_dEeO-yK9GQTzvUA" name="getAdj" visibility="public" method="_8nNKoF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8nDZoV_dEeO-yK9GQTzvUA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8ncbMF_dEeO-yK9GQTzvUA" name="setAdj" visibility="public" method="_8nmMMF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8ndCQF_dEeO-yK9GQTzvUA" name="adj"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8T_TsF_dEeO-yK9GQTzvUA" name="Account">
+      <eAnnotations xmi:id="_8T_TsV_dEeO-yK9GQTzvUA" source="http://www.topcased.org/documentation">
+        <details xmi:id="_8T_Tsl_dEeO-yK9GQTzvUA" key="documentation" value=" The persistent class for the account database table.&#xA; &#xA;"/>
+      </eAnnotations>
+      <elementImport xmi:id="_8nsS0F_dEeO-yK9GQTzvUA" visibility="private"/>
+      <packageImport xmi:id="_8nsS0V_dEeO-yK9GQTzvUA" visibility="private"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8n-msF_dEeO-yK9GQTzvUA" name="getId" specification="_8n2D0F_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8n-msV_dEeO-yK9GQTzvUA"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		return this.idAccount;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8oSvwF_dEeO-yK9GQTzvUA" name="setId" specification="_8oKM4F_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8oSvwV_dEeO-yK9GQTzvUA" name="id"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		this.idAccount = id;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8oinYF_dEeO-yK9GQTzvUA" name="getAmount" specification="_8ob5sF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8oinYV_dEeO-yK9GQTzvUA"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		return this.amount;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8ox38F_dEeO-yK9GQTzvUA" name="setAmount" specification="_8orxUF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8ox38V_dEeO-yK9GQTzvUA" name="amount"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		this.amount = amount;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8o_TUF_dEeO-yK9GQTzvUA" name="getWallet" specification="_8o6a0F_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8o_6YF_dEeO-yK9GQTzvUA" type="_8T3X4F_dEeO-yK9GQTzvUA"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		return this.wallet;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8pUqgF_dEeO-yK9GQTzvUA" name="setWallet" specification="_8pN80F_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8pUqgV_dEeO-yK9GQTzvUA" name="wallet" type="_8T3X4F_dEeO-yK9GQTzvUA"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		this.wallet = wallet;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_8n2D0F_dEeO-yK9GQTzvUA" name="getId" visibility="public" method="_8n-msF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8n2D0V_dEeO-yK9GQTzvUA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8oKM4F_dEeO-yK9GQTzvUA" name="setId" visibility="public" method="_8oSvwF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8oKM4V_dEeO-yK9GQTzvUA" name="id"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8ob5sF_dEeO-yK9GQTzvUA" name="getAmount" visibility="public" method="_8oinYF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8ob5sV_dEeO-yK9GQTzvUA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8orxUF_dEeO-yK9GQTzvUA" name="setAmount" visibility="public" method="_8ox38F_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8orxUV_dEeO-yK9GQTzvUA" name="amount"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8o6a0F_dEeO-yK9GQTzvUA" name="getWallet" visibility="public" method="_8o_TUF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8o6a0V_dEeO-yK9GQTzvUA" type="_8T3X4F_dEeO-yK9GQTzvUA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8pN80F_dEeO-yK9GQTzvUA" name="setWallet" visibility="public" method="_8pUqgF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8pN80V_dEeO-yK9GQTzvUA" name="wallet" type="_8T3X4F_dEeO-yK9GQTzvUA"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8UBv8F_dEeO-yK9GQTzvUA" name="Participation">
+      <eAnnotations xmi:id="_8UCXAF_dEeO-yK9GQTzvUA" source="http://www.topcased.org/documentation">
+        <details xmi:id="_8UCXAV_dEeO-yK9GQTzvUA" key="documentation" value=" Entity implementation class for Entity: Participation&#xA;"/>
+      </eAnnotations>
+      <elementImport xmi:id="_8tsNIF_dEeO-yK9GQTzvUA" visibility="private"/>
+      <packageImport xmi:id="_8ts0MF_dEeO-yK9GQTzvUA" visibility="private"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8t3zUF_dEeO-yK9GQTzvUA" name="getIdParticipation" specification="_8tyTwF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8t3zUV_dEeO-yK9GQTzvUA"/>
+        <language>JAVA</language>
+        <body>
+		return idParticipation;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8uFOsF_dEeO-yK9GQTzvUA" name="setIdParticipation" specification="_8t_vIF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8uFOsV_dEeO-yK9GQTzvUA" name="idParticipation"/>
+        <language>JAVA</language>
+        <body>
+		this.idParticipation = idParticipation;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8uSDAF_dEeO-yK9GQTzvUA" name="getClient" specification="_8uNKgF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8uSqEF_dEeO-yK9GQTzvUA" type="_8UEMMF_dEeO-yK9GQTzvUA"/>
+        <language>JAVA</language>
+        <body>
+		return client;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8ujv0F_dEeO-yK9GQTzvUA" name="setClient" specification="_8ue3UF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8ujv0V_dEeO-yK9GQTzvUA" name="client" type="_8UEMMF_dEeO-yK9GQTzvUA"/>
+        <language>JAVA</language>
+        <body>
+		this.client = client;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8uwkIF_dEeO-yK9GQTzvUA" name="getTransaction" specification="_8urroF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8uxLMF_dEeO-yK9GQTzvUA" type="_8T83cF_dEeO-yK9GQTzvUA"/>
+        <language>JAVA</language>
+        <body>
+		return transaction;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8vEGIF_dEeO-yK9GQTzvUA" name="setTransaction" specification="_8u9_gF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8vEGIV_dEeO-yK9GQTzvUA" name="transaction" type="_8T83cF_dEeO-yK9GQTzvUA"/>
+        <language>JAVA</language>
+        <body>
+		this.transaction = transaction;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_8tyTwF_dEeO-yK9GQTzvUA" name="getIdParticipation" visibility="public" method="_8t3zUF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8tyTwV_dEeO-yK9GQTzvUA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8t_vIF_dEeO-yK9GQTzvUA" name="setIdParticipation" visibility="public" method="_8uFOsF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8t_vIV_dEeO-yK9GQTzvUA" name="idParticipation"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8uNKgF_dEeO-yK9GQTzvUA" name="getClient" visibility="public" method="_8uSDAF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8uNKgV_dEeO-yK9GQTzvUA" type="_8UEMMF_dEeO-yK9GQTzvUA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8ue3UF_dEeO-yK9GQTzvUA" name="setClient" visibility="public" method="_8ujv0F_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8ue3UV_dEeO-yK9GQTzvUA" name="client" type="_8UEMMF_dEeO-yK9GQTzvUA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8urroF_dEeO-yK9GQTzvUA" name="getTransaction" visibility="public" method="_8uwkIF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8urroV_dEeO-yK9GQTzvUA" type="_8T83cF_dEeO-yK9GQTzvUA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8u9_gF_dEeO-yK9GQTzvUA" name="setTransaction" visibility="public" method="_8vEGIF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8u-mkF_dEeO-yK9GQTzvUA" name="transaction" type="_8T83cF_dEeO-yK9GQTzvUA"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8UEMMF_dEeO-yK9GQTzvUA" name="Client">
+      <eAnnotations xmi:id="_8UEMMV_dEeO-yK9GQTzvUA" source="http://www.topcased.org/documentation">
+        <details xmi:id="_8UEMMl_dEeO-yK9GQTzvUA" key="documentation" value=" The persistent class for the client database table.&#xA; &#xA;"/>
+      </eAnnotations>
+      <elementImport xmi:id="_8vKMwF_dEeO-yK9GQTzvUA" visibility="private"/>
+      <elementImport xmi:id="_8vKMwV_dEeO-yK9GQTzvUA" visibility="private"/>
+      <elementImport xmi:id="_8vKz0F_dEeO-yK9GQTzvUA" visibility="private"/>
+      <elementImport xmi:id="_8vKz0l_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UBv8F_dEeO-yK9GQTzvUA"/>
+      <packageImport xmi:id="_8vKz0V_dEeO-yK9GQTzvUA" visibility="private"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8vXoIF_dEeO-yK9GQTzvUA" name="getId" specification="_8vRhgF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8vXoIV_dEeO-yK9GQTzvUA"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		return this.id;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8vnfwF_dEeO-yK9GQTzvUA" name="setId" specification="_8vhZIF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8vnfwV_dEeO-yK9GQTzvUA" name="id"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		this.id = id;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8v2JQF_dEeO-yK9GQTzvUA" name="getFirstName" specification="_8vwCoF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8v2wUF_dEeO-yK9GQTzvUA"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		return this.firstName;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8wMHgF_dEeO-yK9GQTzvUA" name="setFirstName" specification="_8wGA4F_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8wMHgV_dEeO-yK9GQTzvUA" name="firstName"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		this.firstName = firstName;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8wb_IF_dEeO-yK9GQTzvUA" name="getLastName" specification="_8wV4gF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8wb_IV_dEeO-yK9GQTzvUA"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		return this.lastName;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8wxWUF_dEeO-yK9GQTzvUA" name="setLastName" specification="_8wqooF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8wxWUV_dEeO-yK9GQTzvUA" name="lastName"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		this.lastName = lastName;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8xCcEF_dEeO-yK9GQTzvUA" name="getAccount" specification="_8w8VcF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8xCcEV_dEeO-yK9GQTzvUA" type="_8T_TsF_dEeO-yK9GQTzvUA"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		return this.account;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8xXzQF_dEeO-yK9GQTzvUA" name="setAccount" specification="_8xRsoF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8xXzQV_dEeO-yK9GQTzvUA" name="account" type="_8T_TsF_dEeO-yK9GQTzvUA"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		this.account = account;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8xnq4F_dEeO-yK9GQTzvUA" name="getParticipations" specification="_8xiLUF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8xoR8F_dEeO-yK9GQTzvUA"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		return participations;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8x9CEF_dEeO-yK9GQTzvUA" name="setParticipations" specification="_8x3igF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8x9pIF_dEeO-yK9GQTzvUA" name="participations"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		this.participations = participations;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_8vRhgF_dEeO-yK9GQTzvUA" name="getId" visibility="public" method="_8vXoIF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8vRhgV_dEeO-yK9GQTzvUA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8vhZIF_dEeO-yK9GQTzvUA" name="setId" visibility="public" method="_8vnfwF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8vhZIV_dEeO-yK9GQTzvUA" name="id"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8vwCoF_dEeO-yK9GQTzvUA" name="getFirstName" visibility="public" method="_8v2JQF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8vwCoV_dEeO-yK9GQTzvUA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8wGA4F_dEeO-yK9GQTzvUA" name="setFirstName" visibility="public" method="_8wMHgF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8wGA4V_dEeO-yK9GQTzvUA" name="firstName"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8wV4gF_dEeO-yK9GQTzvUA" name="getLastName" visibility="public" method="_8wb_IF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8wWfkF_dEeO-yK9GQTzvUA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8wqooF_dEeO-yK9GQTzvUA" name="setLastName" visibility="public" method="_8wxWUF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8wqooV_dEeO-yK9GQTzvUA" name="lastName"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8w8VcF_dEeO-yK9GQTzvUA" name="getAccount" visibility="public" method="_8xCcEF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8w8VcV_dEeO-yK9GQTzvUA" type="_8T_TsF_dEeO-yK9GQTzvUA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8xRsoF_dEeO-yK9GQTzvUA" name="setAccount" visibility="public" method="_8xXzQF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8xRsoV_dEeO-yK9GQTzvUA" name="account" type="_8T_TsF_dEeO-yK9GQTzvUA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8xiLUF_dEeO-yK9GQTzvUA" name="getParticipations" visibility="public" method="_8xnq4F_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8xiLUV_dEeO-yK9GQTzvUA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8x3igF_dEeO-yK9GQTzvUA" name="setParticipations" visibility="public" method="_8x9CEF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8x3igV_dEeO-yK9GQTzvUA" name="participations"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_8UEzQF_dEeO-yK9GQTzvUA" name="collectManager" clientDependency="_9CL2cF_dEeO-yK9GQTzvUA _9CL2cV_dEeO-yK9GQTzvUA _9CMdgF_dEeO-yK9GQTzvUA _9CMdgV_dEeO-yK9GQTzvUA _9CMdgl_dEeO-yK9GQTzvUA _9CMdg1_dEeO-yK9GQTzvUA">
+      <packagedElement xmi:type="uml:Class" xmi:id="_8UEzQV_dEeO-yK9GQTzvUA" name="Extract">
+        <elementImport xmi:id="_8yChoV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8yDIsV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8yDvwV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8yEW0V_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8yE94F_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8yFk8F_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8yGMAF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8yGMAl_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8yGzEF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8yHaIV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8yHaIl_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T9egF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_8yHaI1_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T5NEF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_8yIBMF_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T_6wF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_8yIBMV_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UFaUV_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_8yIBMl_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8ULg8F_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_8yIBM1_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UK54V_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_8yIoQF_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UIdoF_dEeO-yK9GQTzvUA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8ylUMF_dEeO-yK9GQTzvUA" name="downloadFileFromUrl" specification="_8yf0oV_dEeO-yK9GQTzvUA">
+          <ownedParameter xmi:id="_8ylUMV_dEeO-yK9GQTzvUA" name="url"/>
+          <ownedParameter xmi:id="_8ylUMl_dEeO-yK9GQTzvUA" name="source"/>
+          <ownedParameter xmi:id="_8ylUM1_dEeO-yK9GQTzvUA"/>
+          <language>JAVA</language>
+          <body>
+		if(!source.exists()) return false;
+		else {
+			try {
+				org.apache.commons.io.FileUtils.copyURLToFile(url, source);
+			} catch (IOException e) {
+				e.printStackTrace();
+				Logger.getLogger(&quot;model.collectManager.Extract.downloadFileFromUrl(URL url, &quot; +
+						&quot;File source)&quot;).warning(&quot;\nIl y a une erreur d'URL&quot; + &quot;\n&quot; + 
+								e.getMessage());
+				return false;
+			}
+			return true;
+		}
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8ywTUF_dEeO-yK9GQTzvUA" name="download" specification="_8yra0F_dEeO-yK9GQTzvUA">
+          <ownedParameter xmi:id="_8ywTUV_dEeO-yK9GQTzvUA"/>
+          <language>JAVA</language>
+          <body>
+		if(extractActionFile(&quot;GOOG&quot;) &amp;&amp; extractBourseFile(&quot;NASDAQ&quot;)) return true;
+		else return false;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8zPbgF_dEeO-yK9GQTzvUA" name="insertTableAction" specification="_8zJ78F_dEeO-yK9GQTzvUA">
+          <ownedParameter xmi:id="_8zPbgV_dEeO-yK9GQTzvUA" name="database" type="_8UIdoF_dEeO-yK9GQTzvUA"/>
+          <ownedParameter xmi:id="_8zPbgl_dEeO-yK9GQTzvUA" name="companySymbol"/>
+          <ownedParameter xmi:id="_8zPbg1_dEeO-yK9GQTzvUA" name="lineNumberToInsert"/>
+          <ownedParameter xmi:id="_8zPbhF_dEeO-yK9GQTzvUA"/>
+          <language>JAVA</language>
+          <body>
+////		if(extractActionFile(&quot;GOOG&quot;) &amp;&amp; extractBourseFile(&quot;NASDAQ&quot;)) System.out.println(&quot;Ca marche&quot;);
+////		else System.out.println(&quot;Ca marche pas&quot;);
+//		Database d = new Database();
+//		insertTableAction(d);
+//	}
+	
+	public static boolean insertTableAction(Database database, String companySymbol, 
+			int lineNumberToInsert) {
+		ActionManager actionManager = new ActionManager(database);
+//		String chaine=&quot;&quot;;
+		String fichier =&quot;src/model/collectManager/dataFiles/actions.text&quot;;
+		if(!extractActionFile(companySymbol)) return false;
+		try{
+			InputStream ips=new FileInputStream(fichier); 
+			InputStreamReader ipsr=new InputStreamReader(ips);
+			BufferedReader br=new BufferedReader(ipsr);
+			String line;
+			int lineNumber = 0;
+			while ((line=br.readLine())!=null){
+//				System.out.println(line);
+				String str[] = line.split(&quot;,&quot;);
+				
+				if(lineNumber != 0 &amp;&amp; lineNumber &lt;= lineNumberToInsert) {
+					String date[] = str[0].split(&quot;-&quot;);
+					@SuppressWarnings(&quot;deprecation&quot;)
+					java.sql.Date dSql = new Date(Integer.parseInt(date[0]), 
+							Integer.parseInt(date[1]), Integer.parseInt(date[2]));
+					Action action = new Action(dSql, Float.parseFloat(str[1]), Float.parseFloat(str[2])
+							, Float.parseFloat(str[3]), Float.parseFloat(str[4]), 
+							Float.parseFloat(str[5]), Float.parseFloat(str[6]), null);
+					
+					actionManager.addAction(action);
+//					chaine+=line+&quot;\n&quot;;
+				}
+				lineNumber++;
+			}
+			br.close(); 
+		}		
+		catch (Exception e){
+			e.printStackTrace();
+			Logger.getLogger(&quot;model.collectManager.Extract.downloadFileFromUrl(URL url, &quot; +
+					&quot;File source)&quot;).warning(&quot;\nIl y a une erreur dans les chaines à insérer&quot; 
+							+ &quot;\n&quot; + e.getMessage());
+			return false;
+		}
+		return true;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8zvx0F_dEeO-yK9GQTzvUA" name="insertTableCompany" specification="_8zprMF_dEeO-yK9GQTzvUA">
+          <ownedParameter xmi:id="_8zvx0V_dEeO-yK9GQTzvUA" name="database" type="_8UIdoF_dEeO-yK9GQTzvUA"/>
+          <ownedParameter xmi:id="_8zvx0l_dEeO-yK9GQTzvUA" name="bourseName"/>
+          <ownedParameter xmi:id="_8zvx01_dEeO-yK9GQTzvUA" name="lineNumberToInsert"/>
+          <ownedParameter xmi:id="_8zvx1F_dEeO-yK9GQTzvUA"/>
+          <language>JAVA</language>
+          <body>
+		CompanyManager companyManager = new CompanyManager(database);
+//		String chaine=&quot;&quot;;
+		String fichier =&quot;src/model/collectManager/dataFiles/bourses.text&quot;;
+		if(!extractBourseFile(bourseName)) return false;
+		try{
+			InputStream ips=new FileInputStream(fichier); 
+			InputStreamReader ipsr=new InputStreamReader(ips);
+			BufferedReader br=new BufferedReader(ipsr);
+			String line;
+			int lineNumber = 0;
+			while ((line=br.readLine())!=null){
+//				System.out.println(line);
+				String str[] = line.split(&quot;\&quot;,\&quot;&quot;);
+				
+				if(lineNumber != 0 &amp;&amp; lineNumber &lt;= lineNumberToInsert) {
+					Company company = new Company(str[0], str[1],Float.parseFloat(str[2]),
+							Float.parseFloat(str[3]), str[4], str[5], str[6], str[7], str[8]);
+					companyManager.addCompany(company);
+//					chaine+=line+&quot;\n&quot;;
+				}
+				lineNumber++;
+			}
+			br.close(); 
+		}		
+		catch (Exception e){
+			e.printStackTrace();
+			Logger.getLogger(&quot;model.collectManager.Extract.downloadFileFromUrl(URL url, &quot; +
+					&quot;File source)&quot;).warning(&quot;\nIl y a une erreur dans les chaines à insérer&quot; 
+							+ &quot;\n&quot; + e.getMessage());
+			return false;
+		}
+		return true;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_80HlQF_dEeO-yK9GQTzvUA" name="insertTableBourse" specification="_80DT0F_dEeO-yK9GQTzvUA">
+          <ownedParameter xmi:id="_80HlQV_dEeO-yK9GQTzvUA" name="database" type="_8UIdoF_dEeO-yK9GQTzvUA"/>
+          <language>JAVA</language>
+          <body>
+		BourseManager bm = new BourseManager(database);
+		bm.addBourse(new Bourse(&quot;NASDAQ&quot;));
+		bm.addBourse(new Bourse(&quot;NYSE&quot;));
+		bm.addBourse(new Bourse(&quot;AMEX&quot;));
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_8yf0oV_dEeO-yK9GQTzvUA" name="downloadFileFromUrl" visibility="public" isStatic="true" method="_8ylUMF_dEeO-yK9GQTzvUA">
+          <ownedParameter xmi:id="_8yf0ol_dEeO-yK9GQTzvUA" name="url"/>
+          <ownedParameter xmi:id="_8yf0o1_dEeO-yK9GQTzvUA" name="source"/>
+          <ownedParameter xmi:id="_8yf0pF_dEeO-yK9GQTzvUA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8yra0F_dEeO-yK9GQTzvUA" name="download" visibility="public" isStatic="true" method="_8ywTUF_dEeO-yK9GQTzvUA">
+          <ownedParameter xmi:id="_8yra0V_dEeO-yK9GQTzvUA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8zJ78F_dEeO-yK9GQTzvUA" name="insertTableAction" visibility="public" isStatic="true" method="_8zPbgF_dEeO-yK9GQTzvUA">
+          <ownedParameter xmi:id="_8zJ78V_dEeO-yK9GQTzvUA" name="database" type="_8UIdoF_dEeO-yK9GQTzvUA"/>
+          <ownedParameter xmi:id="_8zJ78l_dEeO-yK9GQTzvUA" name="companySymbol"/>
+          <ownedParameter xmi:id="_8zJ781_dEeO-yK9GQTzvUA" name="lineNumberToInsert"/>
+          <ownedParameter xmi:id="_8zJ79F_dEeO-yK9GQTzvUA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8zprMF_dEeO-yK9GQTzvUA" name="insertTableCompany" visibility="public" isStatic="true" method="_8zvx0F_dEeO-yK9GQTzvUA">
+          <ownedParameter xmi:id="_8zprMV_dEeO-yK9GQTzvUA" name="database" type="_8UIdoF_dEeO-yK9GQTzvUA"/>
+          <ownedParameter xmi:id="_8zprMl_dEeO-yK9GQTzvUA" name="bourseName"/>
+          <ownedParameter xmi:id="_8zprM1_dEeO-yK9GQTzvUA" name="lineNumberToInsert"/>
+          <ownedParameter xmi:id="_8zprNF_dEeO-yK9GQTzvUA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_80DT0F_dEeO-yK9GQTzvUA" name="insertTableBourse" visibility="public" isStatic="true" method="_80HlQF_dEeO-yK9GQTzvUA">
+          <ownedParameter xmi:id="_80DT0V_dEeO-yK9GQTzvUA" name="database" type="_8UIdoF_dEeO-yK9GQTzvUA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_9CL2cF_dEeO-yK9GQTzvUA" client="_8UEzQF_dEeO-yK9GQTzvUA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_9CL2cV_dEeO-yK9GQTzvUA" client="_8UEzQF_dEeO-yK9GQTzvUA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_9CMdgF_dEeO-yK9GQTzvUA" client="_8UEzQF_dEeO-yK9GQTzvUA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_9CMdgV_dEeO-yK9GQTzvUA" client="_8UEzQF_dEeO-yK9GQTzvUA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_9CMdgl_dEeO-yK9GQTzvUA" supplier="_8TXooF_dEeO-yK9GQTzvUA" client="_8UEzQF_dEeO-yK9GQTzvUA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_9CMdg1_dEeO-yK9GQTzvUA" supplier="_8UFaUF_dEeO-yK9GQTzvUA" client="_8UEzQF_dEeO-yK9GQTzvUA"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8T3X4F_dEeO-yK9GQTzvUA" name="Wallet">
+        <eAnnotations xmi:id="_8T3-8F_dEeO-yK9GQTzvUA" source="http://www.topcased.org/documentation">
+          <details xmi:id="_8T3-8V_dEeO-yK9GQTzvUA" key="documentation" value=" The persistent class for the wallet database table.&#xA; &#xA;"/>
+        </eAnnotations>
+        <elementImport xmi:id="_8VxcYF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8V2U4V_dEeO-yK9GQTzvUA" visibility="private"/>
+        <packageImport xmi:id="_8V1GwF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8XJVYF_dEeO-yK9GQTzvUA" name="getId" specification="_8Wt3kF_dEeO-yK9GQTzvUA">
+          <ownedParameter xmi:id="_8XJVYV_dEeO-yK9GQTzvUA"/>
+          <language>JAVA</language>
+          <body>&#xD;
+		return this.id;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8XqSwF_dEeO-yK9GQTzvUA" name="setId" specification="_8Xc3YF_dEeO-yK9GQTzvUA">
+          <ownedParameter xmi:id="_8Xq50F_dEeO-yK9GQTzvUA" name="id"/>
+          <language>JAVA</language>
+          <body>&#xD;
+		this.id = id;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8YNFUF_dEeO-yK9GQTzvUA" name="getActions" specification="_8X_C4F_dEeO-yK9GQTzvUA">
+          <ownedParameter xmi:id="_8YNFUV_dEeO-yK9GQTzvUA"/>
+          <language>JAVA</language>
+          <body>&#xD;
+		return this.actions;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8Y5B0F_dEeO-yK9GQTzvUA" name="setActions" specification="_8Yq_YF_dEeO-yK9GQTzvUA">
+          <ownedParameter xmi:id="_8Y5B0V_dEeO-yK9GQTzvUA" name="actions"/>
+          <language>JAVA</language>
+          <body>&#xD;
+		this.actions = actions;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_8Wt3kF_dEeO-yK9GQTzvUA" name="getId" visibility="public" method="_8XJVYF_dEeO-yK9GQTzvUA">
+          <ownedParameter xmi:id="_8Wt3kV_dEeO-yK9GQTzvUA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8Xc3YF_dEeO-yK9GQTzvUA" name="setId" visibility="public" method="_8XqSwF_dEeO-yK9GQTzvUA">
+          <ownedParameter xmi:id="_8Xc3YV_dEeO-yK9GQTzvUA" name="id"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8X_C4F_dEeO-yK9GQTzvUA" name="getActions" visibility="public" method="_8YNFUF_dEeO-yK9GQTzvUA">
+          <ownedParameter xmi:id="_8X_C4V_dEeO-yK9GQTzvUA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8Yq_YF_dEeO-yK9GQTzvUA" name="setActions" visibility="public" method="_8Y5B0F_dEeO-yK9GQTzvUA">
+          <ownedParameter xmi:id="_8Yq_YV_dEeO-yK9GQTzvUA" name="actions"/>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_8UFaUF_dEeO-yK9GQTzvUA" name="databaseManager" clientDependency="_9CNEkF_dEeO-yK9GQTzvUA _9CNroF_dEeO-yK9GQTzvUA">
+      <packagedElement xmi:type="uml:Class" xmi:id="_8UFaUV_dEeO-yK9GQTzvUA" name="ActionManager">
+        <elementImport xmi:id="_80OS8F_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_80OS8l_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_80O6AF_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T9egF_dEeO-yK9GQTzvUA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_80buUF_dEeO-yK9GQTzvUA" name="addAction" specification="_80YrAF_dEeO-yK9GQTzvUA">
+          <ownedParameter xmi:id="_80buUV_dEeO-yK9GQTzvUA" name="action" type="_8T9egF_dEeO-yK9GQTzvUA"/>
+          <language>JAVA</language>
+          <body>
+    	entityTransaction.begin();
+    	entityManager.persist(action);
+    	entityTransaction.commit();
+    </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_80YrAF_dEeO-yK9GQTzvUA" name="addAction" visibility="public" method="_80buUF_dEeO-yK9GQTzvUA">
+          <ownedParameter xmi:id="_80YrAV_dEeO-yK9GQTzvUA" name="action" type="_8T9egF_dEeO-yK9GQTzvUA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8UGocF_dEeO-yK9GQTzvUA" name="WalletManager">
+        <elementImport xmi:id="_80eKkF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_80exoF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_80exoV_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T3X4F_dEeO-yK9GQTzvUA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_80pwwF_dEeO-yK9GQTzvUA" name="addWallet" specification="_80mtcF_dEeO-yK9GQTzvUA">
+          <ownedParameter xmi:id="_80pwwV_dEeO-yK9GQTzvUA" name="wallet" type="_8T3X4F_dEeO-yK9GQTzvUA"/>
+          <language>JAVA</language>
+          <body>
+    	entityTransaction.begin();
+    	entityManager.persist(wallet);
+    	entityTransaction.commit();
+    </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_80mtcF_dEeO-yK9GQTzvUA" name="addWallet" visibility="public" method="_80pwwF_dEeO-yK9GQTzvUA">
+          <ownedParameter xmi:id="_80mtcV_dEeO-yK9GQTzvUA" name="wallet" type="_8T3X4F_dEeO-yK9GQTzvUA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8UH2kF_dEeO-yK9GQTzvUA" name="ParticipationManager">
+        <elementImport xmi:id="_80sNAF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_80sNAV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_80s0EF_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UBv8F_dEeO-yK9GQTzvUA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_804aQF_dEeO-yK9GQTzvUA" name="addParticipation" specification="_801-AF_dEeO-yK9GQTzvUA">
+          <ownedParameter xmi:id="_805BUF_dEeO-yK9GQTzvUA" name="participation" type="_8UBv8F_dEeO-yK9GQTzvUA"/>
+          <language>JAVA</language>
+          <body>
+    	entityTransaction.begin();
+    	entityManager.persist(participation);
+    	entityTransaction.commit();
+    </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_801-AF_dEeO-yK9GQTzvUA" name="addParticipation" visibility="public" method="_804aQF_dEeO-yK9GQTzvUA">
+          <ownedParameter xmi:id="_801-AV_dEeO-yK9GQTzvUA" name="participation" type="_8UBv8F_dEeO-yK9GQTzvUA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8UIdoF_dEeO-yK9GQTzvUA" name="Database">
+        <elementImport xmi:id="_809SwF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_809Swl_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_80950F_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_80-g4F_dEeO-yK9GQTzvUA" visibility="private"/>
+        <ownedAttribute xmi:id="_81ihkF_dEeO-yK9GQTzvUA" name="ENTITY_MANAGER_FACTORY" visibility="public" isStatic="true">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_81ooMF_dEeO-yK9GQTzvUA" name="" value="Persistence.createEntityManagerFactory(&quot;jee-projet&quot;)"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_81rrgF_dEeO-yK9GQTzvUA" name="ENTITY_MANAGER" visibility="public" isStatic="true">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_81rrgV_dEeO-yK9GQTzvUA" name="" value="ENTITY_MANAGER_FACTORY.createEntityManager()"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_81tgsF_dEeO-yK9GQTzvUA" name="ENTITY_TRANSACTION" visibility="public" isStatic="true">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_81tgsV_dEeO-yK9GQTzvUA" name="" value="ENTITY_MANAGER.getTransaction()"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_81zAQF_dEeO-yK9GQTzvUA" name="close" specification="_81xLEF_dEeO-yK9GQTzvUA">
+          <language>JAVA</language>
+          <body>
+    	ENTITY_MANAGER_FACTORY.close();
+    	ENTITY_MANAGER.close();
+    </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_81xLEF_dEeO-yK9GQTzvUA" name="close" visibility="public" isStatic="true" method="_81zAQF_dEeO-yK9GQTzvUA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8UJrwF_dEeO-yK9GQTzvUA" name="ClientManager">
+        <elementImport xmi:id="_811cgF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_812DkF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_812DkV_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UEMMF_dEeO-yK9GQTzvUA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_82CQ0F_dEeO-yK9GQTzvUA" name="addClient" specification="_81_NgF_dEeO-yK9GQTzvUA">
+          <ownedParameter xmi:id="_82CQ0V_dEeO-yK9GQTzvUA" name="client" type="_8UEMMF_dEeO-yK9GQTzvUA"/>
+          <language>JAVA</language>
+          <body>
+    	entityTransaction.begin();
+    	entityManager.persist(client);
+    	entityTransaction.commit();
+    </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_81_NgF_dEeO-yK9GQTzvUA" name="addClient" visibility="public" method="_82CQ0F_dEeO-yK9GQTzvUA">
+          <ownedParameter xmi:id="_81_NgV_dEeO-yK9GQTzvUA" name="client" type="_8UEMMF_dEeO-yK9GQTzvUA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8UK54F_dEeO-yK9GQTzvUA" name="AdminManager">
+        <elementImport xmi:id="_82EtEF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_82FUIF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_82FUIV_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T7CQF_dEeO-yK9GQTzvUA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_82Q6UF_dEeO-yK9GQTzvUA" name="addAdmin" specification="_82N3AF_dEeO-yK9GQTzvUA">
+          <ownedParameter xmi:id="_82Q6UV_dEeO-yK9GQTzvUA" name="admin" type="_8T7CQF_dEeO-yK9GQTzvUA"/>
+          <language>JAVA</language>
+          <body>
+    	entityTransaction.begin();
+    	entityManager.persist(admin);
+    	entityTransaction.commit();
+    </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_82N3AF_dEeO-yK9GQTzvUA" name="addAdmin" visibility="public" method="_82Q6UF_dEeO-yK9GQTzvUA">
+          <ownedParameter xmi:id="_82N3AV_dEeO-yK9GQTzvUA" name="admin" type="_8T7CQF_dEeO-yK9GQTzvUA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8UK54V_dEeO-yK9GQTzvUA" name="CompanyManager">
+        <elementImport xmi:id="_82TWkF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_82TWkV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_82TWkl_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T_6wF_dEeO-yK9GQTzvUA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_82e8wF_dEeO-yK9GQTzvUA" name="addCompany" specification="_82b5cF_dEeO-yK9GQTzvUA">
+          <ownedParameter xmi:id="_82e8wV_dEeO-yK9GQTzvUA" name="company" type="_8T_6wF_dEeO-yK9GQTzvUA"/>
+          <language>JAVA</language>
+          <body>
+    	entityTransaction.begin();
+    	entityManager.persist(company);
+    	entityTransaction.commit();
+    </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_82b5cF_dEeO-yK9GQTzvUA" name="addCompany" visibility="public" method="_82e8wF_dEeO-yK9GQTzvUA">
+          <ownedParameter xmi:id="_82b5cV_dEeO-yK9GQTzvUA" name="company" type="_8T_6wF_dEeO-yK9GQTzvUA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8ULg8F_dEeO-yK9GQTzvUA" name="BourseManager">
+        <elementImport xmi:id="_82hZAF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_82hZAV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_82iAEF_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T5NEF_dEeO-yK9GQTzvUA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_82sYIF_dEeO-yK9GQTzvUA" name="addBourse" specification="_82pU0F_dEeO-yK9GQTzvUA">
+          <ownedParameter xmi:id="_82sYIV_dEeO-yK9GQTzvUA" name="bourse" type="_8T5NEF_dEeO-yK9GQTzvUA"/>
+          <language>JAVA</language>
+          <body>
+    	entityTransaction.begin();
+    	entityManager.persist(bourse);
+    	entityTransaction.commit();
+    </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_82pU0F_dEeO-yK9GQTzvUA" name="addBourse" visibility="public" method="_82sYIF_dEeO-yK9GQTzvUA">
+          <ownedParameter xmi:id="_82p74F_dEeO-yK9GQTzvUA" name="bourse" type="_8T5NEF_dEeO-yK9GQTzvUA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8UNWIF_dEeO-yK9GQTzvUA" name="TransactionManager">
+        <elementImport xmi:id="_82u0YF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_82vbcF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_82vbcV_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T83cF_dEeO-yK9GQTzvUA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_827BoF_dEeO-yK9GQTzvUA" name="addTransaction" specification="_823-UF_dEeO-yK9GQTzvUA">
+          <ownedParameter xmi:id="_827BoV_dEeO-yK9GQTzvUA" name="transaction" type="_8T83cF_dEeO-yK9GQTzvUA"/>
+          <language>JAVA</language>
+          <body>
+    	entityTransaction.begin();
+    	entityManager.persist(transaction);
+    	entityTransaction.commit();
+    </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_823-UF_dEeO-yK9GQTzvUA" name="addTransaction" visibility="public" method="_827BoF_dEeO-yK9GQTzvUA">
+          <ownedParameter xmi:id="_823-UV_dEeO-yK9GQTzvUA" name="transaction" type="_8T83cF_dEeO-yK9GQTzvUA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8UPLUF_dEeO-yK9GQTzvUA" name="AccountManager">
+        <elementImport xmi:id="_82820F_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_829d4F_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_829d4V_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T_TsF_dEeO-yK9GQTzvUA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_83IdAF_dEeO-yK9GQTzvUA" name="addAccount" specification="_83FZsF_dEeO-yK9GQTzvUA">
+          <ownedParameter xmi:id="_83IdAV_dEeO-yK9GQTzvUA" name="account" type="_8T_TsF_dEeO-yK9GQTzvUA"/>
+          <language>JAVA</language>
+          <body>
+    	entityTransaction.begin();
+    	entityManager.persist(account);
+    	entityTransaction.commit();
+    </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_83FZsF_dEeO-yK9GQTzvUA" name="addAccount" visibility="public" method="_83IdAF_dEeO-yK9GQTzvUA">
+          <ownedParameter xmi:id="_83FZsV_dEeO-yK9GQTzvUA" name="account" type="_8T_TsF_dEeO-yK9GQTzvUA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_9CNEkF_dEeO-yK9GQTzvUA" client="_8UFaUF_dEeO-yK9GQTzvUA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_9CNroF_dEeO-yK9GQTzvUA" supplier="_8TXooF_dEeO-yK9GQTzvUA" client="_8UFaUF_dEeO-yK9GQTzvUA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_9CJaMF_dEeO-yK9GQTzvUA" client="_8TXooF_dEeO-yK9GQTzvUA"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_9CLPYF_dEeO-yK9GQTzvUA" client="_8TXooF_dEeO-yK9GQTzvUA"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_9CLPYV_dEeO-yK9GQTzvUA" client="_8TXooF_dEeO-yK9GQTzvUA"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_9CLPYl_dEeO-yK9GQTzvUA" supplier="_8TXooF_dEeO-yK9GQTzvUA" client="_8TXooF_dEeO-yK9GQTzvUA"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_9CLPY1_dEeO-yK9GQTzvUA" client="_8TXooF_dEeO-yK9GQTzvUA"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8T83cF_dEeO-yK9GQTzvUA" name="Transaction">
+      <eAnnotations xmi:id="_8T83cV_dEeO-yK9GQTzvUA" source="http://www.topcased.org/documentation">
+        <details xmi:id="_8T83cl_dEeO-yK9GQTzvUA" key="documentation" value=" The persistent class for the transaction database table.&#xA; &#xA;"/>
+      </eAnnotations>
+      <elementImport xmi:id="_8cr8sF_dEeO-yK9GQTzvUA" visibility="private"/>
+      <elementImport xmi:id="_8csjwV_dEeO-yK9GQTzvUA" visibility="private"/>
+      <elementImport xmi:id="_8ctK0V_dEeO-yK9GQTzvUA" visibility="private"/>
+      <elementImport xmi:id="_8ctx4F_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UBv8F_dEeO-yK9GQTzvUA"/>
+      <packageImport xmi:id="_8ctK0l_dEeO-yK9GQTzvUA" visibility="private"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8dDJEF_dEeO-yK9GQTzvUA" name="getId" specification="_8c4J8F_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8dDJEV_dEeO-yK9GQTzvUA"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		return this.id;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8dfN8F_dEeO-yK9GQTzvUA" name="setId" specification="_8dTAsF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8dfN8V_dEeO-yK9GQTzvUA" name="id"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		this.id = id;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8d8g8F_dEeO-yK9GQTzvUA" name="getParticipations" specification="_8dw6wF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8d8g8V_dEeO-yK9GQTzvUA"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		return participations;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8ekMAF_dEeO-yK9GQTzvUA" name="setParticipations" specification="_8eZM4F_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8ekMAV_dEeO-yK9GQTzvUA" name="participations"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		this.participations = participations;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8e6xUF_dEeO-yK9GQTzvUA" name="getAmount" specification="_8ewZQF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8e6xUV_dEeO-yK9GQTzvUA"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		return amount;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8fYrYF_dEeO-yK9GQTzvUA" name="setAmount" specification="_8fNFMF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8fYrYV_dEeO-yK9GQTzvUA" name="amount"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		this.amount = amount;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8f1XUF_dEeO-yK9GQTzvUA" name="getComment" specification="_8fpKEF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8f1XUV_dEeO-yK9GQTzvUA"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		return comment;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8geQgF_dEeO-yK9GQTzvUA" name="setComment" specification="_8gSDQF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8geQgV_dEeO-yK9GQTzvUA" name="comment"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		this.comment = comment;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_8c4J8F_dEeO-yK9GQTzvUA" name="getId" visibility="public" method="_8dDJEF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8c4J8V_dEeO-yK9GQTzvUA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8dTAsF_dEeO-yK9GQTzvUA" name="setId" visibility="public" method="_8dfN8F_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8dTnwF_dEeO-yK9GQTzvUA" name="id"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8dw6wF_dEeO-yK9GQTzvUA" name="getParticipations" visibility="public" method="_8d8g8F_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8dw6wV_dEeO-yK9GQTzvUA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8eZM4F_dEeO-yK9GQTzvUA" name="setParticipations" visibility="public" method="_8ekMAF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8eZM4V_dEeO-yK9GQTzvUA" name="participations"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8ewZQF_dEeO-yK9GQTzvUA" name="getAmount" visibility="public" method="_8e6xUF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8ewZQV_dEeO-yK9GQTzvUA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8fNFMF_dEeO-yK9GQTzvUA" name="setAmount" visibility="public" method="_8fYrYF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8fNFMV_dEeO-yK9GQTzvUA" name="amount"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8fpKEF_dEeO-yK9GQTzvUA" name="getComment" visibility="public" method="_8f1XUF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8fpxIF_dEeO-yK9GQTzvUA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8gSDQF_dEeO-yK9GQTzvUA" name="setComment" visibility="public" method="_8geQgF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8gSDQV_dEeO-yK9GQTzvUA" name="comment"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8T7CQF_dEeO-yK9GQTzvUA" name="Admin">
+      <eAnnotations xmi:id="_8T7CQV_dEeO-yK9GQTzvUA" source="http://www.topcased.org/documentation">
+        <details xmi:id="_8T7CQl_dEeO-yK9GQTzvUA" key="documentation" value=" The persistent class for the admin database table.&#xA; &#xA;"/>
+      </eAnnotations>
+      <elementImport xmi:id="_8ap8YF_dEeO-yK9GQTzvUA" visibility="private"/>
+      <packageImport xmi:id="_8ap8YV_dEeO-yK9GQTzvUA" visibility="private"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8a83UF_dEeO-yK9GQTzvUA" name="getId" specification="_8aztYF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8a83UV_dEeO-yK9GQTzvUA"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		return this.id;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8bOkIF_dEeO-yK9GQTzvUA" name="setId" specification="_8bHPYF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8bOkIV_dEeO-yK9GQTzvUA" name="id"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		this.id = id;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8bgQ8F_dEeO-yK9GQTzvUA" name="getLastName" specification="_8bY8MF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8bgQ8V_dEeO-yK9GQTzvUA"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		return this.lastName;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8b4EYF_dEeO-yK9GQTzvUA" name="setLastName" specification="_8bxWsF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8b4EYV_dEeO-yK9GQTzvUA" name="lastName"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		this.lastName = lastName;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8cJKIF_dEeO-yK9GQTzvUA" name="getFirstName" specification="_8cCccF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8cJKIV_dEeO-yK9GQTzvUA"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		return this.firstName;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8cg9kF_dEeO-yK9GQTzvUA" name="setFirstName" specification="_8caP4F_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8chkoF_dEeO-yK9GQTzvUA" name="name"/>
+        <language>JAVA</language>
+        <body>&#xD;
+		this.firstName = name;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_8aztYF_dEeO-yK9GQTzvUA" name="getId" visibility="public" method="_8a83UF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8aztYV_dEeO-yK9GQTzvUA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8bHPYF_dEeO-yK9GQTzvUA" name="setId" visibility="public" method="_8bOkIF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8bHPYV_dEeO-yK9GQTzvUA" name="id"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8bY8MF_dEeO-yK9GQTzvUA" name="getLastName" visibility="public" method="_8bgQ8F_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8bY8MV_dEeO-yK9GQTzvUA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8bxWsF_dEeO-yK9GQTzvUA" name="setLastName" visibility="public" method="_8b4EYF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8bxWsV_dEeO-yK9GQTzvUA" name="lastName"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8cCccF_dEeO-yK9GQTzvUA" name="getFirstName" visibility="public" method="_8cJKIF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8cCccV_dEeO-yK9GQTzvUA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8caP4F_dEeO-yK9GQTzvUA" name="setFirstName" visibility="public" method="_8cg9kF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8caP4V_dEeO-yK9GQTzvUA" name="name"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8T5NEF_dEeO-yK9GQTzvUA" name="Bourse">
+      <eAnnotations xmi:id="_8T5NEV_dEeO-yK9GQTzvUA" source="http://www.topcased.org/documentation">
+        <details xmi:id="_8T5NEl_dEeO-yK9GQTzvUA" key="documentation" value=" Entity implementation class for Entity: Bourse&#xA;"/>
+      </eAnnotations>
+      <elementImport xmi:id="_8ZBksF_dEeO-yK9GQTzvUA" visibility="private"/>
+      <packageImport xmi:id="_8ZBksV_dEeO-yK9GQTzvUA" visibility="private"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8ZT4kF_dEeO-yK9GQTzvUA" name="getId" specification="_8ZKuoF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8ZT4kV_dEeO-yK9GQTzvUA"/>
+        <language>JAVA</language>
+        <body>
+		return id;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8Zqd4F_dEeO-yK9GQTzvUA" name="setId" specification="_8ZhT8F_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8Zqd4V_dEeO-yK9GQTzvUA" name="id"/>
+        <language>JAVA</language>
+        <body>
+		this.id = id;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8aBqQF_dEeO-yK9GQTzvUA" name="getName" specification="_8Z4gUF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8aCRUF_dEeO-yK9GQTzvUA"/>
+        <language>JAVA</language>
+        <body>
+		return name;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8ahZgF_dEeO-yK9GQTzvUA" name="setName" specification="_8aYPkF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8ahZgV_dEeO-yK9GQTzvUA" name="name"/>
+        <language>JAVA</language>
+        <body>
+		this.name = name;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_8ZKuoF_dEeO-yK9GQTzvUA" name="getId" visibility="public" method="_8ZT4kF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8ZKuoV_dEeO-yK9GQTzvUA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8ZhT8F_dEeO-yK9GQTzvUA" name="setId" visibility="public" method="_8Zqd4F_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8Zh7AF_dEeO-yK9GQTzvUA" name="id"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8Z4gUF_dEeO-yK9GQTzvUA" name="getName" visibility="public" method="_8aBqQF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8Z4gUV_dEeO-yK9GQTzvUA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_8aYPkF_dEeO-yK9GQTzvUA" name="setName" visibility="public" method="_8ahZgF_dEeO-yK9GQTzvUA">
+        <ownedParameter xmi:id="_8aYPkV_dEeO-yK9GQTzvUA" name="name"/>
+      </ownedOperation>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_8UPyYF_dEeO-yK9GQTzvUA" name="test">
+    <packagedElement xmi:type="uml:Package" xmi:id="_8UPyYV_dEeO-yK9GQTzvUA" name="model" clientDependency="_9COSsF_dEeO-yK9GQTzvUA _9COSsV_dEeO-yK9GQTzvUA _9COSsl_dEeO-yK9GQTzvUA _9CO5wF_dEeO-yK9GQTzvUA _9CO5wV_dEeO-yK9GQTzvUA _9CO5wl_dEeO-yK9GQTzvUA _9CPg0F_dEeO-yK9GQTzvUA">
+      <packagedElement xmi:type="uml:Class" xmi:id="_8URnkF_dEeO-yK9GQTzvUA" name="ParticipationTest">
+        <elementImport xmi:id="_83UDMF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_83UqQF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_83UqQV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_83UqQl_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_83VRUF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_83V4YV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_83V4Yl_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UEMMF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_83V4Y1_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UBv8F_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_83WfcF_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T83cF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_83XGgV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_83XtkV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_83YUol_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_83Y7sl_dEeO-yK9GQTzvUA" visibility="private"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_83qBcF_dEeO-yK9GQTzvUA" name="participationOK" specification="_83issF_dEeO-yK9GQTzvUA">
+          <language>JAVA</language>
+          <body>
+	    tx.begin();
+	    Client client = new Client();
+	    client.setFirstName(&quot;Yohayoh&quot;);
+	    em.persist(client);
+	    Transaction t = new Transaction();
+	    em.persist(t);
+	    Participation p = new Participation();
+	    p.setClient(client);
+	    p.setTransaction(t);
+		em.persist(p);
+		tx.commit();
+		
+		Query query =
+		em.createQuery(&quot;select p from Participation p where p.client.id = :idClient and &quot; +
+				&quot;p.transaction.id = :idTransaction&quot;);
+		query.setParameter(&quot;idClient&quot;, client.getId());
+		query.setParameter(&quot;idTransaction&quot;, t.getId());
+		@SuppressWarnings(&quot;unchecked&quot;)
+		List&lt;Participation&amp;gt; liste = (List&lt;Participation&amp;gt;)query.getResultList();
+		Assert.assertNotNull(liste.get(0));
+		Assert.assertTrue(liste.size() == 1);
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_83issF_dEeO-yK9GQTzvUA" name="participationOK" visibility="public" method="_83qBcF_dEeO-yK9GQTzvUA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8UUD0F_dEeO-yK9GQTzvUA" name="TransactionTest">
+        <elementImport xmi:id="_83wvIF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_83xWMF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_83xWMV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_83x9QF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_83x9QV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_83ykUF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_83ykUV_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T83cF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_83ykUl_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_83zLYF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_83zLYV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_83zycF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_84JwsF_dEeO-yK9GQTzvUA" name="transactionOK" specification="_84Cb8F_dEeO-yK9GQTzvUA">
+          <language>JAVA</language>
+          <body>
+	    tx.begin();
+	    Transaction t = new Transaction(0, &quot;test&quot;);
+	  	em.persist(t);
+		tx.commit();
+		
+		Query query =
+		em.createQuery(&quot;select t from Transaction t where t.id = :id&quot;);
+		query.setParameter(&quot;id&quot;, t.getId());
+		@SuppressWarnings(&quot;unchecked&quot;)
+		List&lt;Transaction&amp;gt; liste = (List&lt;Transaction&amp;gt;)query.getResultList();
+		Assert.assertEquals(t.getComment(), liste.get(0).getComment());
+
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_84Cb8F_dEeO-yK9GQTzvUA" name="transactionOK" visibility="public" method="_84JwsF_dEeO-yK9GQTzvUA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8UV5AF_dEeO-yK9GQTzvUA" name="AdminTest">
+        <elementImport xmi:id="_84RsgF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_84RsgV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_84STkF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_84STkV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_84S6oF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_84S6oV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_84ThsF_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T7CQF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_84ThsV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_84UIwF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_84UIwV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_84Uv0F_dEeO-yK9GQTzvUA" visibility="private"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_84r8MF_dEeO-yK9GQTzvUA" name="adminOK" specification="_84kAYF_dEeO-yK9GQTzvUA">
+          <language>JAVA</language>
+          <body>
+	    tx.begin();
+		Admin admin = new Admin(&quot;test&quot;,&quot;test&quot;);
+		em.persist(admin);
+		tx.commit();
+		
+		Query query =
+		em.createQuery(&quot;select a from Admin a where a.id = :id&quot;);
+		query.setParameter(&quot;id&quot;, admin.getId());
+		@SuppressWarnings(&quot;unchecked&quot;)
+		List&lt;Admin&amp;gt; liste = (List&lt;Admin&amp;gt;)query.getResultList();
+		Assert.assertEquals(admin.getId(), liste.get(0).getId());
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_84kAYF_dEeO-yK9GQTzvUA" name="adminOK" visibility="public" method="_84r8MF_dEeO-yK9GQTzvUA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8UYVQF_dEeO-yK9GQTzvUA" name="ActionTest">
+        <elementImport xmi:id="_841GIF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_841GIV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_841tMF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_842UQF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_842UQV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8427UF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8427UV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8427Ul_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T9egF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_843iYF_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T3X4F_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_843iYV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_844JcF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_844JcV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_844wgF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_85UOUF_dEeO-yK9GQTzvUA" name="actionOK" specification="_85J2QF_dEeO-yK9GQTzvUA">
+          <language>JAVA</language>
+          <body>
+	    tx.begin();
+	    Wallet w = new Wallet();
+	    em.persist(w);
+	    java.util.Date d = new java.util.Date();
+	    java.sql.Date dSql = new Date(d.getTime());
+		Action action = new Action(dSql, 200, 200, 200, 200, 200, 200, w);
+		em.persist(action);
+		tx.commit();
+		
+		Query query =
+		em.createQuery(&quot;select a from Action a where a.date = :date and a.wallet.id = :id&quot;);
+		query.setParameter(&quot;date&quot;, dSql);
+		query.setParameter(&quot;id&quot;, w.getId());
+		List&lt;Action&amp;gt; listeWallet = (List&lt;Action&amp;gt;)query.getResultList();
+		Assert.assertEquals(w.getId(), listeWallet.get(0).getWallet().getId());
+		Assert.assertEquals(dSql, listeWallet.get(0).getDate());		
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_85J2QF_dEeO-yK9GQTzvUA" name="actionOK" visibility="public" method="_85UOUF_dEeO-yK9GQTzvUA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8UaKcF_dEeO-yK9GQTzvUA" name="AccountTest">
+        <elementImport xmi:id="_85cKIF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_85cxMF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_85dYQF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_85dYQV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_85d_UF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_85d_UV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_85emYF_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T_TsF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_85emYV_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T3X4F_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_85emYl_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_85fNcF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_85f0gF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_85f0gV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_856rQF_dEeO-yK9GQTzvUA" name="accountOK" specification="_85xhUF_dEeO-yK9GQTzvUA">
+          <language>JAVA</language>
+          <body>
+	    tx.begin();
+	    Wallet w = new Wallet();
+	    em.persist(w);
+		Account account = new Account(200, w);
+		em.persist(account);
+		tx.commit();
+		
+		Query query =
+		em.createQuery(&quot;select a from Account a where a.wallet.id = :id&quot;);
+		query.setParameter(&quot;id&quot;, w.getId());
+		List&lt;Account&amp;gt; liste = (List&lt;Account&amp;gt;)query.getResultList();
+		Assert.assertEquals(w.getId(), liste.get(0).getWallet().getId());
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_85xhUF_dEeO-yK9GQTzvUA" name="accountOK" visibility="public" method="_856rQF_dEeO-yK9GQTzvUA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8UcmsF_dEeO-yK9GQTzvUA" name="BourseTest">
+        <elementImport xmi:id="_86CnEF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_86DOIF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_86DOIV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_86D1MF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_86EcQF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_86EcQV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_86FDUF_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T5NEF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_86FDUV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_86FqYF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_86FqYV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_86GRcF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_86eE4F_dEeO-yK9GQTzvUA" name="bourseOK" specification="_86ViAF_dEeO-yK9GQTzvUA">
+          <language>JAVA</language>
+          <body>
+	    tx.begin();
+		Bourse bourse = new Bourse();
+		bourse.setName(&quot;NASDAC&quot;);
+		em.persist(bourse);
+		tx.commit();
+		
+		Query query =
+		em.createQuery(&quot;select b from Bourse b where b.id = :id&quot;);
+		query.setParameter(&quot;id&quot;, bourse.getId());
+		@SuppressWarnings(&quot;unchecked&quot;)
+		List&lt;Bourse&amp;gt; liste = (List&lt;Bourse&amp;gt;)query.getResultList();
+		Assert.assertEquals(bourse.getName(), liste.get(0).getName());
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_86ViAF_dEeO-yK9GQTzvUA" name="bourseOK" visibility="public" method="_86eE4F_dEeO-yK9GQTzvUA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8Ueb4F_dEeO-yK9GQTzvUA" name="ClientTest">
+        <elementImport xmi:id="_86mnwF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_86nO0F_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_86nO0V_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_86n14F_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_86oc8F_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_86oc8V_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_86oc8l_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T_TsF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_86pEAF_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UEMMF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_86pEAV_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T3X4F_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_86prEF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_86prEV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_86qSIF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_86qSIV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_87CFkF_dEeO-yK9GQTzvUA" name="clientOK" specification="_866JwF_dEeO-yK9GQTzvUA">
+          <language>JAVA</language>
+          <body>
+	    tx.begin();
+	    Wallet w = new Wallet();
+	    em.persist(w);
+	    Account a = new Account(200, w);
+	    em.persist(a);
+	    Client client = new Client(&quot;Nsanzabandi&quot;, &quot;Fiacre&quot;, a);
+		em.persist(client);
+		tx.commit();
+		
+		Query query =
+		em.createQuery(&quot;select c from Client c where c.firstName = :name&quot;);
+		query.setParameter(&quot;name&quot;, client.getFirstName());
+		@SuppressWarnings(&quot;unchecked&quot;)
+		List&lt;Client&amp;gt; liste = (List&lt;Client&amp;gt;)query.getResultList();
+		Assert.assertEquals(a.getId(), liste.get(0).getAccount().getId());
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_866JwF_dEeO-yK9GQTzvUA" name="clientOK" visibility="public" method="_87CFkF_dEeO-yK9GQTzvUA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8Ug4IF_dEeO-yK9GQTzvUA" name="WalletTest">
+        <elementImport xmi:id="_87L2kF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_87L2kV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_87MdoF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_87MdoV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_87NEsF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_87NEsV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_87NrwF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_87OS0F_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_87OS0V_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T9egF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_87OS0l_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T3X4F_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_87O54F_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_87O54V_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_87Pg8F_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_87QIAF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_87pJkF_dEeO-yK9GQTzvUA" name="walletOK" specification="_87gmsF_dEeO-yK9GQTzvUA">
+          <language>JAVA</language>
+          <body>
+	    tx.begin();
+	    Wallet w = new Wallet();
+	    Action action = new Action();
+	    action.setAdj(800);
+	    Action action1 = new Action();
+	    action.setAdj(805);
+	    Set&lt;Action&amp;gt; actions = new HashSet&lt;Action&amp;gt;();
+	    actions.add(action);
+	    actions.add(action1);
+	    w.setActions(actions);
+		em.persist(w);
+		tx.commit();
+		
+		Query query =
+		em.createQuery(&quot;select w from Wallet w where w.id = :id&quot;);
+		query.setParameter(&quot;id&quot;, w.getId());
+		@SuppressWarnings(&quot;unchecked&quot;)
+		List&lt;Wallet&amp;gt; liste = (List&lt;Wallet&amp;gt;)query.getResultList();
+		Assert.assertEquals(2, liste.get(0).getActions().size());    
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_87gmsF_dEeO-yK9GQTzvUA" name="walletOK" visibility="public" method="_87pJkF_dEeO-yK9GQTzvUA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8UitUF_dEeO-yK9GQTzvUA" name="CompanyTest">
+        <elementImport xmi:id="_87weUF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_87weUV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_87xFYF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_87xFYV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_87xscF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_87xscV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_87yTgF_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T_6wF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_87yTgV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_87y6kF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_87y6kV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_87zhoF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_88Jf4F_dEeO-yK9GQTzvUA" name="companyOK" specification="_88CLIF_dEeO-yK9GQTzvUA">
+          <language>JAVA</language>
+          <body>
+	    tx.begin();
+	    Company company = new Company(&quot;test&quot;,&quot;test&quot;,200,200,&quot;test&quot;, &quot;test&quot;, &quot;test&quot;, &quot;test&quot;, &quot;test&quot;);
+		em.persist(company);
+		tx.commit();
+		
+		Query query =
+		em.createQuery(&quot;select c from Company c where c.name = :name&quot;);
+		query.setParameter(&quot;name&quot;, company.getName());
+		@SuppressWarnings(&quot;unchecked&quot;)
+		List&lt;Company&amp;gt; liste = (List&lt;Company&amp;gt;)query.getResultList();
+		Assert.assertEquals((int)company.getLastSale(), (int)liste.get(0).getLastSale());
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_88CLIF_dEeO-yK9GQTzvUA" name="companyOK" visibility="public" method="_88Jf4F_dEeO-yK9GQTzvUA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_9COSsF_dEeO-yK9GQTzvUA" client="_8UPyYV_dEeO-yK9GQTzvUA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_9COSsV_dEeO-yK9GQTzvUA" client="_8UPyYV_dEeO-yK9GQTzvUA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_9COSsl_dEeO-yK9GQTzvUA" supplier="_8TXooF_dEeO-yK9GQTzvUA" client="_8UPyYV_dEeO-yK9GQTzvUA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_9CO5wF_dEeO-yK9GQTzvUA" client="_8UPyYV_dEeO-yK9GQTzvUA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_9CO5wV_dEeO-yK9GQTzvUA" client="_8UPyYV_dEeO-yK9GQTzvUA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_9CO5wl_dEeO-yK9GQTzvUA" client="_8UPyYV_dEeO-yK9GQTzvUA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_9CPg0F_dEeO-yK9GQTzvUA" client="_8UPyYV_dEeO-yK9GQTzvUA"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_8UjUYF_dEeO-yK9GQTzvUA" name="collectManager" clientDependency="_9CPg0V_dEeO-yK9GQTzvUA _9CPg0l_dEeO-yK9GQTzvUA _9CQH4F_dEeO-yK9GQTzvUA _9CQH4V_dEeO-yK9GQTzvUA _9CQH4l_dEeO-yK9GQTzvUA _9CQH41_dEeO-yK9GQTzvUA _9CQH5F_dEeO-yK9GQTzvUA _9CQu8F_dEeO-yK9GQTzvUA">
+        <packagedElement xmi:type="uml:Class" xmi:id="_8UlJkF_dEeO-yK9GQTzvUA" name="ExtractTest">
+          <elementImport xmi:id="_88SCwF_dEeO-yK9GQTzvUA" visibility="private"/>
+          <elementImport xmi:id="_88SCwV_dEeO-yK9GQTzvUA" visibility="private"/>
+          <elementImport xmi:id="_88Sp0F_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T9egF_dEeO-yK9GQTzvUA"/>
+          <elementImport xmi:id="_88Sp0V_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T5NEF_dEeO-yK9GQTzvUA"/>
+          <elementImport xmi:id="_88TQ4F_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T_6wF_dEeO-yK9GQTzvUA"/>
+          <elementImport xmi:id="_88TQ4V_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UEzQV_dEeO-yK9GQTzvUA"/>
+          <elementImport xmi:id="_88TQ4l_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UIdoF_dEeO-yK9GQTzvUA"/>
+          <elementImport xmi:id="_88T38F_dEeO-yK9GQTzvUA" visibility="private"/>
+          <elementImport xmi:id="_88T38V_dEeO-yK9GQTzvUA" visibility="private"/>
+          <elementImport xmi:id="_88UfAF_dEeO-yK9GQTzvUA" visibility="private"/>
+          <elementImport xmi:id="_88VGEF_dEeO-yK9GQTzvUA" visibility="private"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_88s5gF_dEeO-yK9GQTzvUA" name="downloadOK" specification="_88k9sF_dEeO-yK9GQTzvUA">
+            <language>JAVA</language>
+            <body>
+		Assert.assertTrue(extract.download());
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_89De0F_dEeO-yK9GQTzvUA" name="insertTableActionOK" specification="_888KEF_dEeO-yK9GQTzvUA">
+            <language>JAVA</language>
+            <body>
+		Assert.assertTrue(extract.insertTableAction(database, &quot;GOOG&quot;, 30));
+		
+		Query query =
+		database.ENTITY_MANAGER.createQuery(&quot;select a from Action a&quot;);
+		@SuppressWarnings(&quot;unchecked&quot;)
+		List&lt;Action&amp;gt; liste = (List&lt;Action&amp;gt;)query.getResultList();
+		Assert.assertEquals(30, liste.size());
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_89dugF_dEeO-yK9GQTzvUA" name="insertTableCompanyOK" specification="_89VLoF_dEeO-yK9GQTzvUA">
+            <language>JAVA</language>
+            <body>
+		Assert.assertTrue(extract.insertTableCompany(database, &quot;NASDAQ&quot;, 30));
+		
+		Query query =
+		database.ENTITY_MANAGER.createQuery(&quot;select c from Company c&quot;);
+		@SuppressWarnings(&quot;unchecked&quot;)
+		List&lt;Company&amp;gt; liste = (List&lt;Company&amp;gt;)query.getResultList();
+		Assert.assertEquals(30, liste.size());
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_891h8F_dEeO-yK9GQTzvUA" name="insertTableBourseOK" specification="_89s_EF_dEeO-yK9GQTzvUA">
+            <language>JAVA</language>
+            <body>
+		extract.insertTableBourse(database);
+		
+		Query query =
+		database.ENTITY_MANAGER.createQuery(&quot;select b from Bourse b&quot;);
+		@SuppressWarnings(&quot;unchecked&quot;)
+		List&lt;Bourse&amp;gt; liste = (List&lt;Bourse&amp;gt;)query.getResultList();
+		Assert.assertEquals(3, liste.size());
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_88k9sF_dEeO-yK9GQTzvUA" name="downloadOK" visibility="public" method="_88s5gF_dEeO-yK9GQTzvUA"/>
+          <ownedOperation xmi:id="_888KEF_dEeO-yK9GQTzvUA" name="insertTableActionOK" visibility="public" method="_89De0F_dEeO-yK9GQTzvUA"/>
+          <ownedOperation xmi:id="_89VLoF_dEeO-yK9GQTzvUA" name="insertTableCompanyOK" visibility="public" method="_89dugF_dEeO-yK9GQTzvUA"/>
+          <ownedOperation xmi:id="_89s_EF_dEeO-yK9GQTzvUA" name="insertTableBourseOK" visibility="public" method="_891h8F_dEeO-yK9GQTzvUA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_9CPg0V_dEeO-yK9GQTzvUA" client="_8UjUYF_dEeO-yK9GQTzvUA"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_9CPg0l_dEeO-yK9GQTzvUA" client="_8UjUYF_dEeO-yK9GQTzvUA"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_9CQH4F_dEeO-yK9GQTzvUA" supplier="_8TXooF_dEeO-yK9GQTzvUA" client="_8UjUYF_dEeO-yK9GQTzvUA"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_9CQH4V_dEeO-yK9GQTzvUA" supplier="_8UEzQF_dEeO-yK9GQTzvUA" client="_8UjUYF_dEeO-yK9GQTzvUA"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_9CQH4l_dEeO-yK9GQTzvUA" supplier="_8UFaUF_dEeO-yK9GQTzvUA" client="_8UjUYF_dEeO-yK9GQTzvUA"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_9CQH41_dEeO-yK9GQTzvUA" client="_8UjUYF_dEeO-yK9GQTzvUA"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_9CQH5F_dEeO-yK9GQTzvUA" client="_8UjUYF_dEeO-yK9GQTzvUA"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_9CQu8F_dEeO-yK9GQTzvUA" client="_8UjUYF_dEeO-yK9GQTzvUA"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_8UlwoF_dEeO-yK9GQTzvUA" name="databaseManager" clientDependency="_9CRWAF_dEeO-yK9GQTzvUA _9CRWAV_dEeO-yK9GQTzvUA _9CR9EF_dEeO-yK9GQTzvUA _9CR9EV_dEeO-yK9GQTzvUA _9CR9El_dEeO-yK9GQTzvUA _9CR9E1_dEeO-yK9GQTzvUA _9CR9FF_dEeO-yK9GQTzvUA _9CSkIF_dEeO-yK9GQTzvUA">
+      <packagedElement xmi:type="uml:Class" xmi:id="_8Unl0F_dEeO-yK9GQTzvUA" name="ParticipationManagerTest">
+        <elementImport xmi:id="_89-E0F_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_89-E0V_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_89-r4F_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UEMMF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_89-r4V_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UBv8F_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_89-r4l_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T83cF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_89-r41_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UJrwF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_89_S8F_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UIdoF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_89_S8V_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UH2kF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_89_S8l_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UNWIF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_89_6AF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_89_6AV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8-AhEF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8-AhEV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8-WfUF_dEeO-yK9GQTzvUA" name="addParticipationOK" specification="_8-PKkF_dEeO-yK9GQTzvUA">
+          <language>JAVA</language>
+          <body>
+	    Client client = new Client();
+	    client.setFirstName(&quot;Yohayoh&quot;);
+	    clientManager.addClient(client);
+	    Transaction t = new Transaction();
+	    transactionManager.addTransaction(t);
+	    Participation p = new Participation(client, t);
+	    participationManager.addParticipation(p);
+	    
+		@SuppressWarnings(&quot;static-access&quot;)
+		Query query =
+		database.ENTITY_MANAGER.createQuery(&quot;select p from Participation p where p.client.id = :idClient and &quot; +
+				&quot;p.transaction.id = :idTransaction&quot;);
+		query.setParameter(&quot;idClient&quot;, client.getId());
+		query.setParameter(&quot;idTransaction&quot;, t.getId());
+		@SuppressWarnings(&quot;unchecked&quot;)
+		List&lt;Participation&amp;gt; liste = (List&lt;Participation&amp;gt;)query.getResultList();
+		Assert.assertNotNull(liste.get(0));
+		Assert.assertTrue(liste.size() == 1);
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_8-PKkF_dEeO-yK9GQTzvUA" name="addParticipationOK" visibility="public" method="_8-WfUF_dEeO-yK9GQTzvUA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8UqCEF_dEeO-yK9GQTzvUA" name="ActionManagerTest">
+        <elementImport xmi:id="_8-dNAF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8-d0EF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8-d0EV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8-ebIF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8-ebIV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8-fCMF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8-fCMV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8-fCMl_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T9egF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_8-fpQF_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T3X4F_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_8-fpQV_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UFaUV_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_8-fpQl_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UIdoF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_8-fpQ1_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UGocF_dEeO-yK9GQTzvUA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8-1AcF_dEeO-yK9GQTzvUA" name="addActionOK" specification="_8-uSwF_dEeO-yK9GQTzvUA">
+          <language>JAVA</language>
+          <body>
+		Wallet w = new Wallet();
+		walletManager.addWallet(w);
+	    java.util.Date d = new java.util.Date();
+	    java.sql.Date dSql = new Date(d.getTime());
+		Action action = new Action(dSql, 200, 200, 200, 200, 200, 200, w);
+		actionManager.addAction(action);
+		
+		@SuppressWarnings(&quot;static-access&quot;)
+		Query query =
+		database.ENTITY_MANAGER.createQuery(&quot;select a from Action a where a.date = :date and a.wallet.id = :id&quot;);
+		query.setParameter(&quot;date&quot;, dSql);
+		query.setParameter(&quot;id&quot;, w.getId());
+		@SuppressWarnings(&quot;unchecked&quot;)
+		List&lt;Action&amp;gt; listeWallet = (List&lt;Action&amp;gt;)query.getResultList();
+		Assert.assertEquals(w.getId(), listeWallet.get(0).getWallet().getId());
+		Assert.assertEquals(dSql, listeWallet.get(0).getDate());
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_8-uSwF_dEeO-yK9GQTzvUA" name="addActionOK" visibility="public" method="_8-1AcF_dEeO-yK9GQTzvUA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8UtFYF_dEeO-yK9GQTzvUA" name="WalletManagerTest">
+        <elementImport xmi:id="_8-9jUF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8-9jUV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8--KYF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8--KYV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8--xcF_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T9egF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_8--xcV_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T3X4F_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_8--xcl_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UFaUV_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_8--xc1_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UIdoF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_8-_YgF_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UGocF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_8-_YgV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8-__kF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8-__kV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8_AmoF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8_XL8F_dEeO-yK9GQTzvUA" name="addWalletOK" specification="_8_P3MF_dEeO-yK9GQTzvUA">
+          <language>JAVA</language>
+          <body>
+	    Action action = new Action();
+	    action.setAdj(800);
+	    actionManager.addAction(action);
+	    Action action1 = new Action();
+	    action.setAdj(805);
+	    actionManager.addAction(action1);
+	    Set&lt;Action&amp;gt; actions = new HashSet&lt;Action&amp;gt;();
+	    actions.add(action);
+	    actions.add(action1);
+	    Wallet w = new Wallet(actions);
+	    walletManager.addWallet(w);
+	    
+		@SuppressWarnings(&quot;static-access&quot;)
+		Query query =
+		database.ENTITY_MANAGER.createQuery(&quot;select w from Wallet w where w.id = :id&quot;);
+		query.setParameter(&quot;id&quot;, w.getId());
+		@SuppressWarnings(&quot;unchecked&quot;)
+		List&lt;Wallet&amp;gt; liste = (List&lt;Wallet&amp;gt;)query.getResultList();
+		Assert.assertEquals(2, liste.get(0).getActions().size());    
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_8_P3MF_dEeO-yK9GQTzvUA" name="addWalletOK" visibility="public" method="_8_XL8F_dEeO-yK9GQTzvUA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8Uu6kF_dEeO-yK9GQTzvUA" name="ClientManagerTest">
+        <elementImport xmi:id="_8_fHwF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8_fu0F_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8_fu0V_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T_TsF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_8_fu0l_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UEMMF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_8_fu01_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T3X4F_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_8_gV4F_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UPLUF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_8_gV4V_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UJrwF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_8_gV4l_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UIdoF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_8_gV41_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UGocF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_8_g88F_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8_g88V_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8_hkAF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8_hkAV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8_3iQF_dEeO-yK9GQTzvUA" name="addClientOK" specification="_8_wNgF_dEeO-yK9GQTzvUA">
+          <language>JAVA</language>
+          <body>
+		Wallet w = new Wallet();
+		walletManager.addWallet(w);
+		Account a = new Account(400, w);
+		accountManager.addAccount(a);
+		Client client = new Client(&quot;clientManagerTest&quot;, &quot;clientManagerTest&quot;, a);
+		clientManager.addClient(client);
+		
+		@SuppressWarnings(&quot;static-access&quot;)
+		Query query =
+		database.ENTITY_MANAGER.createQuery(&quot;select c from Client c where c.firstName = :name&quot;);
+		query.setParameter(&quot;name&quot;, client.getFirstName());
+		@SuppressWarnings(&quot;unchecked&quot;)
+		List&lt;Client&amp;gt; liste = (List&lt;Client&amp;gt;)query.getResultList();
+		Assert.assertEquals(a.getId(), liste.get(0).getAccount().getId());
+</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_8_wNgF_dEeO-yK9GQTzvUA" name="addClientOK" visibility="public" method="_8_3iQF_dEeO-yK9GQTzvUA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8UwIsF_dEeO-yK9GQTzvUA" name="CompanyManagerTest">
+        <elementImport xmi:id="_8_-P8F_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8_-P8V_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8_-P8l_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8_-3AF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8_-3AV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8__eEF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_8__eEV_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T_6wF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_8__eEl_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UK54V_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_9AAFIF_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UIdoF_dEeO-yK9GQTzvUA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9ATnIF_dEeO-yK9GQTzvUA" name="addCompanyOK" specification="_9AM5cF_dEeO-yK9GQTzvUA">
+          <language>JAVA</language>
+          <body>
+	    Company company = new Company(&quot;CompanyManagerTest&quot;,&quot;CompanyManagerTest&quot;,200,200,
+	    		&quot;CompanyManagerTest&quot;, &quot;CompanyManagerTest&quot;, &quot;CompanyManagerTest&quot;, 
+	    		&quot;CompanyManagerTest&quot;, &quot;CompanyManagerTest&quot;);
+	    companyManager.addCompany(company);
+	    
+	    @SuppressWarnings(&quot;static-access&quot;)
+		Query query =
+	    database.ENTITY_MANAGER.createQuery(&quot;select c from Company c where c.name = :name&quot;);
+	    query.setParameter(&quot;name&quot;, company.getName());
+	    @SuppressWarnings(&quot;unchecked&quot;)
+	    List&lt;Company&amp;gt; liste = (List&lt;Company&amp;gt;)query.getResultList();
+	    Assert.assertEquals((int)company.getLastSale(), (int)liste.get(0).getLastSale());
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_9AM5cF_dEeO-yK9GQTzvUA" name="addCompanyOK" visibility="public" method="_9ATnIF_dEeO-yK9GQTzvUA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8Ux94F_dEeO-yK9GQTzvUA" name="TransactionManagerTest">
+        <elementImport xmi:id="_9AaU0F_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_9Aa74F_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_9Aa74V_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T83cF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_9Aa74l_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UIdoF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_9Abi8F_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UNWIF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_9Abi8V_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_9Abi8l_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_9AcKAF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_9AcKAV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9AvE8F_dEeO-yK9GQTzvUA" name="addTransactionOK" specification="_9Ao-UF_dEeO-yK9GQTzvUA">
+          <language>JAVA</language>
+          <body>
+	    Transaction t = new Transaction(0, &quot;transactionManagerTest&quot;);
+	    transactionManager.addTransaction(t);
+	    
+		@SuppressWarnings(&quot;static-access&quot;)
+		Query query =
+		database.ENTITY_MANAGER.createQuery(&quot;select t from Transaction t where t.id = :id&quot;);
+		query.setParameter(&quot;id&quot;, t.getId());
+		@SuppressWarnings(&quot;unchecked&quot;)
+		List&lt;Transaction&amp;gt; liste = (List&lt;Transaction&amp;gt;)query.getResultList();
+		Assert.assertEquals(t.getComment(), liste.get(0).getComment());
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_9Ao-UF_dEeO-yK9GQTzvUA" name="addTransactionOK" visibility="public" method="_9AvE8F_dEeO-yK9GQTzvUA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8UzMAF_dEeO-yK9GQTzvUA" name="BourseManagerTest">
+        <elementImport xmi:id="_9A1LkF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_9A1yoF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_9A1yoV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_9A2ZsF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_9A2ZsV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_9A3AwF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_9A3AwV_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T5NEF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_9A3Awl_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8ULg8F_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_9A3Aw1_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UIdoF_dEeO-yK9GQTzvUA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9BJ7sF_dEeO-yK9GQTzvUA" name="addBourseOK" specification="_9BD1EF_dEeO-yK9GQTzvUA">
+          <language>JAVA</language>
+          <body>
+		Bourse b = new Bourse(&quot;bourseManagerTest&quot;);
+		bourseManager.addBourse(b);
+		
+		@SuppressWarnings(&quot;static-access&quot;)
+		Query query =
+		database.ENTITY_MANAGER.createQuery(&quot;select b from Bourse b where b.id = :id&quot;);
+		query.setParameter(&quot;id&quot;, b.getId());
+		@SuppressWarnings(&quot;unchecked&quot;)
+		List&lt;Bourse&amp;gt; liste = (List&lt;Bourse&amp;gt;)query.getResultList();
+		Assert.assertEquals(b.getName(), liste.get(0).getName());
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_9BD1EF_dEeO-yK9GQTzvUA" name="addBourseOK" visibility="public" method="_9BJ7sF_dEeO-yK9GQTzvUA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8U1BMF_dEeO-yK9GQTzvUA" name="AdminManagerTest">
+        <elementImport xmi:id="_9BQCUF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_9BQpYF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_9BQpYV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_9BRQcF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_9BRQcV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_9BRQcl_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_9BR3gF_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T7CQF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_9BR3gV_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UK54F_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_9BR3gl_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UIdoF_dEeO-yK9GQTzvUA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9BkLYF_dEeO-yK9GQTzvUA" name="addAccountOK" specification="_9BddsF_dEeO-yK9GQTzvUA">
+          <language>JAVA</language>
+          <body>
+		Admin a = new Admin(&quot;managerTest&quot;, &quot;ManagerTest&quot;);
+		adminManager.addAdmin(a);		
+		
+		@SuppressWarnings(&quot;static-access&quot;)
+		Query query =
+		database.ENTITY_MANAGER.createQuery(&quot;select a from Admin a where a.firstName = :name&quot;);
+		query.setParameter(&quot;name&quot;, a.getFirstName());
+		@SuppressWarnings(&quot;unchecked&quot;)
+		List&lt;Admin&amp;gt; liste = (List&lt;Admin&amp;gt;)query.getResultList();
+		Assert.assertEquals(1, liste.size());
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_9BddsF_dEeO-yK9GQTzvUA" name="addAccountOK" visibility="public" method="_9BkLYF_dEeO-yK9GQTzvUA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8U2PUF_dEeO-yK9GQTzvUA" name="AccountManagerTest">
+        <elementImport xmi:id="_9BrgIF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_9BrgIV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_9BsHMF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_9BsHMV_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_9BsHMl_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_9BsuQF_dEeO-yK9GQTzvUA" visibility="private"/>
+        <elementImport xmi:id="_9BsuQV_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T_TsF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_9BsuQl_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8T3X4F_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_9BsuQ1_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UPLUF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_9BtVUF_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UIdoF_dEeO-yK9GQTzvUA"/>
+        <elementImport xmi:id="_9BtVUV_dEeO-yK9GQTzvUA" visibility="private" importedElement="_8UGocF_dEeO-yK9GQTzvUA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9CAQQF_dEeO-yK9GQTzvUA" name="addAccountK" specification="_9B6JoF_dEeO-yK9GQTzvUA">
+          <language>JAVA</language>
+          <body>
+		Wallet w = new Wallet();
+		walletManager.addWallet(w);
+		Account account = new Account(300, w);
+		accountManager.addAccount(account);
+		
+		@SuppressWarnings(&quot;static-access&quot;)
+		Query query =
+		database.ENTITY_MANAGER.createQuery(&quot;select a from Account a where a.wallet.id = :id&quot;);
+		query.setParameter(&quot;id&quot;, w.getId());
+		@SuppressWarnings(&quot;unchecked&quot;)
+		List&lt;Account&amp;gt; liste = (List&lt;Account&amp;gt;)query.getResultList();
+		Assert.assertEquals(w.getId(), liste.get(0).getWallet().getId());
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_9B6JoF_dEeO-yK9GQTzvUA" name="addAccountK" visibility="public" method="_9CAQQF_dEeO-yK9GQTzvUA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_9CRWAF_dEeO-yK9GQTzvUA" client="_8UlwoF_dEeO-yK9GQTzvUA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_9CRWAV_dEeO-yK9GQTzvUA" client="_8UlwoF_dEeO-yK9GQTzvUA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_9CR9EF_dEeO-yK9GQTzvUA" supplier="_8TXooF_dEeO-yK9GQTzvUA" client="_8UlwoF_dEeO-yK9GQTzvUA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_9CR9EV_dEeO-yK9GQTzvUA" supplier="_8UFaUF_dEeO-yK9GQTzvUA" client="_8UlwoF_dEeO-yK9GQTzvUA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_9CR9El_dEeO-yK9GQTzvUA" client="_8UlwoF_dEeO-yK9GQTzvUA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_9CR9E1_dEeO-yK9GQTzvUA" client="_8UlwoF_dEeO-yK9GQTzvUA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_9CR9FF_dEeO-yK9GQTzvUA" client="_8UlwoF_dEeO-yK9GQTzvUA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_9CSkIF_dEeO-yK9GQTzvUA" client="_8UlwoF_dEeO-yK9GQTzvUA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_8T_6wF_dEeO-yK9GQTzvUA" name="Company">
+    <eAnnotations xmi:id="_8T_6wV_dEeO-yK9GQTzvUA" source="http://www.topcased.org/documentation">
+      <details xmi:id="_8T_6wl_dEeO-yK9GQTzvUA" key="documentation" value=" Entity implementation class for Entity: Society&#xA;"/>
+    </eAnnotations>
+    <elementImport xmi:id="_8paKEF_dEeO-yK9GQTzvUA" visibility="private"/>
+    <packageImport xmi:id="_8paxIF_dEeO-yK9GQTzvUA" visibility="private"/>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8pj7EF_dEeO-yK9GQTzvUA" name="getLastSale" specification="_8pfpoF_dEeO-yK9GQTzvUA">
+      <ownedParameter xmi:id="_8pkiIF_dEeO-yK9GQTzvUA"/>
+      <language>JAVA</language>
+      <body>
+		return lastSale;
+	</body>
+    </ownedBehavior>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8pwvYF_dEeO-yK9GQTzvUA" name="setLastSale" specification="_8pr24F_dEeO-yK9GQTzvUA">
+      <ownedParameter xmi:id="_8pwvYV_dEeO-yK9GQTzvUA" name="lastSale"/>
+      <language>JAVA</language>
+      <body>
+		this.lastSale = lastSale;
+	</body>
+    </ownedBehavior>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8p88oF_dEeO-yK9GQTzvUA" name="getSymbol" specification="_8p4EIF_dEeO-yK9GQTzvUA">
+      <ownedParameter xmi:id="_8p88oV_dEeO-yK9GQTzvUA"/>
+      <language>JAVA</language>
+      <body>
+		return symbol;
+	</body>
+    </ownedBehavior>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8qPQgF_dEeO-yK9GQTzvUA" name="setSymbol" specification="_8qJw8F_dEeO-yK9GQTzvUA">
+      <ownedParameter xmi:id="_8qPQgV_dEeO-yK9GQTzvUA" name="symbol"/>
+      <language>JAVA</language>
+      <body>
+		this.symbol = symbol;
+	</body>
+    </ownedBehavior>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8qbdwF_dEeO-yK9GQTzvUA" name="getName" specification="_8qWlQF_dEeO-yK9GQTzvUA">
+      <ownedParameter xmi:id="_8qbdwV_dEeO-yK9GQTzvUA"/>
+      <language>JAVA</language>
+      <body>
+		return name;
+	</body>
+    </ownedBehavior>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8qvm0F_dEeO-yK9GQTzvUA" name="setName" specification="_8qqHQF_dEeO-yK9GQTzvUA">
+      <ownedParameter xmi:id="_8qvm0V_dEeO-yK9GQTzvUA" name="name"/>
+      <language>JAVA</language>
+      <body>
+		this.name = name;
+	</body>
+    </ownedBehavior>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8q6l8F_dEeO-yK9GQTzvUA" name="getMarketCap" specification="_8q1tcF_dEeO-yK9GQTzvUA">
+      <ownedParameter xmi:id="_8q6l8V_dEeO-yK9GQTzvUA"/>
+      <language>JAVA</language>
+      <body>
+		return marketCap;
+	</body>
+    </ownedBehavior>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8rJPcF_dEeO-yK9GQTzvUA" name="setMarketCap" specification="_8rDv4F_dEeO-yK9GQTzvUA">
+      <ownedParameter xmi:id="_8rJPcV_dEeO-yK9GQTzvUA" name="marketCap"/>
+      <language>JAVA</language>
+      <body>
+		this.marketCap = marketCap;
+	</body>
+    </ownedBehavior>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8rWq0F_dEeO-yK9GQTzvUA" name="getADR_TSO" specification="_8rRyUF_dEeO-yK9GQTzvUA">
+      <ownedParameter xmi:id="_8rWq0V_dEeO-yK9GQTzvUA"/>
+      <language>JAVA</language>
+      <body>
+		return ADR_TSO;
+	</body>
+    </ownedBehavior>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8roXoF_dEeO-yK9GQTzvUA" name="setADR_TSO" specification="_8rkGMF_dEeO-yK9GQTzvUA">
+      <ownedParameter xmi:id="_8ro-sF_dEeO-yK9GQTzvUA" name="aDR_TSO"/>
+      <language>JAVA</language>
+      <body>
+		ADR_TSO = aDR_TSO;
+	</body>
+    </ownedBehavior>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8r1L8F_dEeO-yK9GQTzvUA" name="getIPOyear" specification="_8rw6gF_dEeO-yK9GQTzvUA">
+      <ownedParameter xmi:id="_8r1L8V_dEeO-yK9GQTzvUA"/>
+      <language>JAVA</language>
+      <body>
+		return IPOyear;
+	</body>
+    </ownedBehavior>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8sIt8F_dEeO-yK9GQTzvUA" name="setIPOyear" specification="_8sD1cF_dEeO-yK9GQTzvUA">
+      <ownedParameter xmi:id="_8sIt8V_dEeO-yK9GQTzvUA" name="iPOyear"/>
+      <language>JAVA</language>
+      <body>
+		IPOyear = iPOyear;
+	</body>
+    </ownedBehavior>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8sViQF_dEeO-yK9GQTzvUA" name="getSector" specification="_8sRQ0F_dEeO-yK9GQTzvUA">
+      <ownedParameter xmi:id="_8sViQV_dEeO-yK9GQTzvUA"/>
+      <language>JAVA</language>
+      <body>
+		return sector;
+	</body>
+    </ownedBehavior>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8spEQF_dEeO-yK9GQTzvUA" name="setSector" specification="_8sjksF_dEeO-yK9GQTzvUA">
+      <ownedParameter xmi:id="_8spEQV_dEeO-yK9GQTzvUA" name="sector"/>
+      <language>JAVA</language>
+      <body>
+		this.sector = sector;
+	</body>
+    </ownedBehavior>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8s2foF_dEeO-yK9GQTzvUA" name="getIndustry" specification="_8sxnIF_dEeO-yK9GQTzvUA">
+      <ownedParameter xmi:id="_8s2foV_dEeO-yK9GQTzvUA"/>
+      <language>JAVA</language>
+      <body>
+		return industry;
+	</body>
+    </ownedBehavior>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8tIzgF_dEeO-yK9GQTzvUA" name="setIndustry" specification="_8tDT8F_dEeO-yK9GQTzvUA">
+      <ownedParameter xmi:id="_8tIzgV_dEeO-yK9GQTzvUA" name="industry"/>
+      <language>JAVA</language>
+      <body>
+		this.industry = industry;
+	</body>
+    </ownedBehavior>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8tVn0F_dEeO-yK9GQTzvUA" name="getSummaryQuote" specification="_8tRWYF_dEeO-yK9GQTzvUA">
+      <ownedParameter xmi:id="_8tVn0V_dEeO-yK9GQTzvUA"/>
+      <language>JAVA</language>
+      <body>
+		return summaryQuote;
+	</body>
+    </ownedBehavior>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_8tn7sF_dEeO-yK9GQTzvUA" name="setSummaryQuote" specification="_8tjDMF_dEeO-yK9GQTzvUA">
+      <ownedParameter xmi:id="_8tn7sV_dEeO-yK9GQTzvUA" name="summaryQuote"/>
+      <language>JAVA</language>
+      <body>
+		this.summaryQuote = summaryQuote;
+	</body>
+    </ownedBehavior>
+    <ownedOperation xmi:id="_8pfpoF_dEeO-yK9GQTzvUA" name="getLastSale" visibility="public" method="_8pj7EF_dEeO-yK9GQTzvUA">
+      <ownedParameter xmi:id="_8pfpoV_dEeO-yK9GQTzvUA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_8pr24F_dEeO-yK9GQTzvUA" name="setLastSale" visibility="public" method="_8pwvYF_dEeO-yK9GQTzvUA">
+      <ownedParameter xmi:id="_8pr24V_dEeO-yK9GQTzvUA" name="lastSale"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_8p4EIF_dEeO-yK9GQTzvUA" name="getSymbol" visibility="public" method="_8p88oF_dEeO-yK9GQTzvUA">
+      <ownedParameter xmi:id="_8p4EIV_dEeO-yK9GQTzvUA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_8qJw8F_dEeO-yK9GQTzvUA" name="setSymbol" visibility="public" method="_8qPQgF_dEeO-yK9GQTzvUA">
+      <ownedParameter xmi:id="_8qJw8V_dEeO-yK9GQTzvUA" name="symbol"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_8qWlQF_dEeO-yK9GQTzvUA" name="getName" visibility="public" method="_8qbdwF_dEeO-yK9GQTzvUA">
+      <ownedParameter xmi:id="_8qWlQV_dEeO-yK9GQTzvUA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_8qqHQF_dEeO-yK9GQTzvUA" name="setName" visibility="public" method="_8qvm0F_dEeO-yK9GQTzvUA">
+      <ownedParameter xmi:id="_8qqHQV_dEeO-yK9GQTzvUA" name="name"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_8q1tcF_dEeO-yK9GQTzvUA" name="getMarketCap" visibility="public" method="_8q6l8F_dEeO-yK9GQTzvUA">
+      <ownedParameter xmi:id="_8q1tcV_dEeO-yK9GQTzvUA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_8rDv4F_dEeO-yK9GQTzvUA" name="setMarketCap" visibility="public" method="_8rJPcF_dEeO-yK9GQTzvUA">
+      <ownedParameter xmi:id="_8rDv4V_dEeO-yK9GQTzvUA" name="marketCap"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_8rRyUF_dEeO-yK9GQTzvUA" name="getADR_TSO" visibility="public" method="_8rWq0F_dEeO-yK9GQTzvUA">
+      <ownedParameter xmi:id="_8rRyUV_dEeO-yK9GQTzvUA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_8rkGMF_dEeO-yK9GQTzvUA" name="setADR_TSO" visibility="public" method="_8roXoF_dEeO-yK9GQTzvUA">
+      <ownedParameter xmi:id="_8rkGMV_dEeO-yK9GQTzvUA" name="aDR_TSO"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_8rw6gF_dEeO-yK9GQTzvUA" name="getIPOyear" visibility="public" method="_8r1L8F_dEeO-yK9GQTzvUA">
+      <ownedParameter xmi:id="_8rw6gV_dEeO-yK9GQTzvUA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_8sD1cF_dEeO-yK9GQTzvUA" name="setIPOyear" visibility="public" method="_8sIt8F_dEeO-yK9GQTzvUA">
+      <ownedParameter xmi:id="_8sD1cV_dEeO-yK9GQTzvUA" name="iPOyear"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_8sRQ0F_dEeO-yK9GQTzvUA" name="getSector" visibility="public" method="_8sViQF_dEeO-yK9GQTzvUA">
+      <ownedParameter xmi:id="_8sRQ0V_dEeO-yK9GQTzvUA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_8sjksF_dEeO-yK9GQTzvUA" name="setSector" visibility="public" method="_8spEQF_dEeO-yK9GQTzvUA">
+      <ownedParameter xmi:id="_8sjksV_dEeO-yK9GQTzvUA" name="sector"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_8sxnIF_dEeO-yK9GQTzvUA" name="getIndustry" visibility="public" method="_8s2foF_dEeO-yK9GQTzvUA">
+      <ownedParameter xmi:id="_8sxnIV_dEeO-yK9GQTzvUA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_8tDT8F_dEeO-yK9GQTzvUA" name="setIndustry" visibility="public" method="_8tIzgF_dEeO-yK9GQTzvUA">
+      <ownedParameter xmi:id="_8tDT8V_dEeO-yK9GQTzvUA" name="industry"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_8tRWYF_dEeO-yK9GQTzvUA" name="getSummaryQuote" visibility="public" method="_8tVn0F_dEeO-yK9GQTzvUA">
+      <ownedParameter xmi:id="_8tRWYV_dEeO-yK9GQTzvUA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_8tjDMF_dEeO-yK9GQTzvUA" name="setSummaryQuote" visibility="public" method="_8tn7sF_dEeO-yK9GQTzvUA">
+      <ownedParameter xmi:id="_8tjDMV_dEeO-yK9GQTzvUA" name="summaryQuote"/>
+    </ownedOperation>
+  </packagedElement>
+</uml:Model>

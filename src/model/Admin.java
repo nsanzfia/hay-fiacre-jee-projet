@@ -8,19 +8,25 @@ import javax.persistence.*;
  * The persistent class for the admin database table.
  * 
  */
+@SuppressWarnings("serial")
 @Entity
 @Table(name="admin")
 public class Admin implements Serializable {
-	private static final long serialVersionUID = 1L;
 
 	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
 	private int id;
 
 	private String lastName;
 
-	private String name;
+	private String firstName;
 
     public Admin() {
+    }
+    
+    public Admin(String lName, String fName) {
+    	this.firstName = fName;
+    	this.lastName = lName;
     }
 
 	public int getId() {
@@ -39,12 +45,12 @@ public class Admin implements Serializable {
 		this.lastName = lastName;
 	}
 
-	public String getName() {
-		return this.name;
+	public String getFirstName() {
+		return this.firstName;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public void setFirstName(String name) {
+		this.firstName = name;
 	}
 
 }
